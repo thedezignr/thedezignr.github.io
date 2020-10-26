@@ -1,0 +1,27 @@
+.footer {
+  height: 160px;
+  width: 100%;
+  /* border-top: 2px solid var(--gray-2); */
+}
+
+.positioned__footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border: none;
+}
+
+.socials {
+  width: 13.1875rem;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.positioned__footer>.socials {
+  margin-top: 80px;
+}
+
+footer:not(.positioned__footer) .socials>button {
+  line-height: 12;
+}

@@ -1,0 +1,39 @@
+.main__header {
+  margin: 0 11.46%;
+  height: 160px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 7;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main__header p {
+  display: inline-block;
+}
+
+.active {
+  color: var(--red);
+}
+
+aside:not(.active) .prev::before {
+  content: "";
+  display: inline-block;
+  height: 8px;
+  width: 19px;
+  margin-right: 10px;
+  background: url(../../assets/left_arrow.svg);
+}
+
+.header__name {
+  color: var(--blue);
+}
+
+aside:not(.active) .next::after {
+  content: "";
+  display: inline-block;
+  height: 8px;
+  width: 19px;
+  margin-left: 10px;
+  background: url(../../assets/right_arrow.svg);
+}
