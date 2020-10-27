@@ -7,6 +7,7 @@ import { Switch, Route, BrowserRouter as Router } from 'react-router-dom';
 import GenesysFacilitator from './components/experience/GenesysFacilitator';
 import GenesysDesigner from './components/experience/GenesysDesigner';
 import Tenece from './components/experience/Tenece';
+import Portfolio from './components/portfolio/Index';
 
 function App() {
   return (
@@ -35,6 +36,11 @@ function App() {
         <Route path="/tenece">
           <Header back />
           <Tenece />
+          <Footer />
+        </Route>
+        <Route path="/portfolio">
+          <Header active="portfolio" />
+          <Portfolio />
           <Footer />
         </Route>
       </Switch>
