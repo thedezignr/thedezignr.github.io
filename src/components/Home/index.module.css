@@ -1,3 +1,8 @@
+.wrapper {
+  transition-timing-function: ease-in;
+  transition: 2s;
+}
+
 .main__container {
   margin: 10px 11.46% 0;
   padding-bottom: 120px;

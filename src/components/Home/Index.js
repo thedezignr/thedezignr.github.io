@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom';
 const Home = props => {
 
   return (
-    <div>
+    <div className={style.wrapper}>
       <section className={style.main__container}>
         <section id="about">
           <h1>About Me</h1>

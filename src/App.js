@@ -8,10 +8,21 @@ import GenesysFacilitator from './components/experience/GenesysFacilitator';
 import GenesysDesigner from './components/experience/GenesysDesigner';
 import Tenece from './components/experience/Tenece';
 import Portfolio from './components/portfolio/Index';
+import Splash from './components/splash/Splash';
+import { useState, useEffect } from 'react';
 
 function App() {
-  return (
-    <Router>
+  const [showSplash, shouldShowSplash] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      shouldShowSplash(false);
+    }, 3000);
+  }, []);
+
+  return showSplash ?
+    <Splash /> :
+    (<Router>
       <Switch>
         <Route path="/" exact>
           <Header />
@@ -45,7 +56,7 @@ function App() {
         </Route>
       </Switch>
     </Router>
-  );
+    );
 }
 
 export default App;
