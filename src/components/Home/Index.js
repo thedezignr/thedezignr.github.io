@@ -118,16 +118,16 @@ const Home = props => {
             <hr className={style.header__marker} />
             <main className="main__body">
               <ul className={style.two__columns_list}>
-                <a href="https://www.sd.com" className="boring__link" ><li>Spinero</li></a>
-                <a href="https://www.sd.com" className="boring__link" ><li>Effect Studios</li></a>
-                <a href="https://www.sd.com" className="boring__link" ><li>Love Football</li></a>
-                <a href="https://www.sd.com" className="boring__link" ><li>Sprintrip</li></a>
-                <a href="https://www.sd.com" className="boring__link" ><li>Bikelane</li></a>
-                <a href="https://www.sd.com" className="boring__link" ><li>Boolean Labs</li></a>
-                <a href="https://www.sd.com" className="boring__link" ><li>Hexcord</li></a>
-                <a href="https://www.sd.com" className="boring__link" ><li>CopenHagen</li></a>
-                <a href="https://www.sd.com" className="boring__link" ><li>HyperDebugger</li></a>
-                <a href="https://www.sd.com" className="boring__link" ><li>Zoe's Lab</li></a>
+                <li>Spinero</li>
+                <li>Effect Studios</li>
+                <li>Love Football</li>
+                <li>Sprintrip</li>
+                <li>Bikelane</li>
+                <li>Boolean Labs</li>
+                <li>Hexcord</li>
+                <li>CopenHagen</li>
+                <li>HyperDebugger</li>
+                <li>Zoe's Lab</li>
               </ul>
             </main>
           </section>

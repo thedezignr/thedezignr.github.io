@@ -58,8 +58,10 @@ section.main__container>section:last-child>main {
 
 .header__marker {
   width: 83px;
-  height: 0px;
-  border: 2px solid var(--gray-3);
+  height: 5px;
+  background: var(--gray-3);
+  border-radius: 2px;
+  border: none;
   margin: -14px 0 60px;
 }
 
