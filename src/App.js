@@ -4,9 +4,9 @@ import Highlight from './components/Highlight/Index';
 import Home from './components/Home/Index';
 import Footer from './components/footer/Index';
 import { Switch, Route, BrowserRouter as Router } from 'react-router-dom';
-import GenesysFacilitator from './components/portfolio/GenesysFacilitator';
-import GenesysDesigner from './components/portfolio/GenesysDesigner';
-import Tenece from './components/portfolio/Tenece';
+import GenesysFacilitator from './components/experience/GenesysFacilitator';
+import GenesysDesigner from './components/experience/GenesysDesigner';
+import Tenece from './components/experience/Tenece';
 
 function App() {
   return (
