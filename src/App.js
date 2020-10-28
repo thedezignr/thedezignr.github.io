@@ -1,15 +1,16 @@
 import './App.css';
-import Header from './components/Header/Index';
-import Highlight from './components/Highlight/Index';
-import Home from './components/Home/Index';
-import Footer from './components/footer/Index';
 import { Switch, Route, BrowserRouter as Router } from 'react-router-dom';
-import GenesysFacilitator from './components/experience/GenesysFacilitator';
-import GenesysDesigner from './components/experience/GenesysDesigner';
-import Tenece from './components/experience/Tenece';
-import Portfolio from './components/portfolio/Index';
 import Splash from './components/splash/Splash';
-import { useState, useEffect } from 'react';
+import { useState, useEffect, Suspense, lazy as lazyLoad } from 'react';
+
+const Header = lazyLoad(() => import('./components/Header/Index'));
+const Highlight = lazyLoad(() => import('./components/Highlight/Index'));
+const Home = lazyLoad(() => import('./components/Home/Index'));
+const Footer = lazyLoad(() => import('./components/footer/Index'));
+const GenesysFacilitator = lazyLoad(() => import('./components/experience/GenesysFacilitator'));
+const GenesysDesigner = lazyLoad(() => import('./components/experience/GenesysDesigner'));
+const Tenece = lazyLoad(() => import('./components/experience/Tenece'));
+const Portfolio = lazyLoad(() => import('./components/portfolio/Index'));
 
 function App() {
   const [showSplash, shouldShowSplash] = useState(true);
@@ -25,34 +26,46 @@ function App() {
     (<Router>
       <Switch>
         <Route path="/" exact>
-          <Header />
-          <Highlight />
-          <Footer forHighlight />
+          <Suspense fallback={<Splash />}>
+            <Header />
+            <Highlight />
+            <Footer forHighlight />
+          </Suspense>
         </Route>
         <Route path="/about">
-          <Header active="about" />
-          <Home />
-          <Footer />
+          <Suspense fallback={<Splash />}>
+            <Header active="about" />
+            <Home />
+            <Footer />
+          </Suspense>
         </Route>
         <Route path="/genesys/facilitator">
-          <Header back />
-          <GenesysFacilitator />
-          <Footer forHighlight />
+          <Suspense fallback={<Splash />}>
+            <Header back />
+            <GenesysFacilitator />
+            <Footer forHighlight />
+          </Suspense>
         </Route>
         <Route path="/genesys/designer">
-          <Header back />
-          <GenesysDesigner />
-          <Footer />
+          <Suspense fallback={<Splash />}>
+            <Header back />
+            <GenesysDesigner />
+            <Footer />
+          </Suspense>
         </Route>
         <Route path="/tenece">
-          <Header back />
-          <Tenece />
-          <Footer />
+          <Suspense fallback={<Splash />}>
+            <Header back />
+            <Tenece />
+            <Footer />
+          </Suspense>
         </Route>
         <Route path="/portfolio">
-          <Header active="portfolio" />
-          <Portfolio />
-          <Footer />
+          <Suspense fallback={<Splash />}>
+            <Header active="portfolio" />
+            <Portfolio />
+            <Footer />
+          </Suspense>
         </Route>
       </Switch>
     </Router>

@@ -1,4 +1,3 @@
-import React from 'react';
 import style from './index.module.css';
 import LoveFootball from "../../assets/love_football.svg";
 import LoanUp from "../../assets/loan_up.svg";
