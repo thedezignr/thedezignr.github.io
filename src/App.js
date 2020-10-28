@@ -24,50 +24,40 @@ function App() {
   return showSplash ?
     <Splash /> :
     (<Router>
-      <Switch>
-        <Route path="/" exact>
-          <Suspense fallback={<Splash />}>
+      <Suspense fallback={<Splash />}>
+        <Switch>
+          <Route path="/" exact>
             <Header />
             <Highlight />
             <Footer forHighlight />
-          </Suspense>
-        </Route>
-        <Route path="/about">
-          <Suspense fallback={<Splash />}>
+          </Route>
+          <Route path="/about">
             <Header active="about" />
             <Home />
             <Footer />
-          </Suspense>
-        </Route>
-        <Route path="/genesys/facilitator">
-          <Suspense fallback={<Splash />}>
+          </Route>
+          <Route path="/genesys/facilitator">
             <Header back />
             <GenesysFacilitator />
             <Footer forHighlight />
-          </Suspense>
-        </Route>
-        <Route path="/genesys/designer">
-          <Suspense fallback={<Splash />}>
+          </Route>
+          <Route path="/genesys/designer">
             <Header back />
             <GenesysDesigner />
             <Footer />
-          </Suspense>
-        </Route>
-        <Route path="/tenece">
-          <Suspense fallback={<Splash />}>
+          </Route>
+          <Route path="/tenece">
             <Header back />
             <Tenece />
             <Footer />
-          </Suspense>
-        </Route>
-        <Route path="/portfolio">
-          <Suspense fallback={<Splash />}>
+          </Route>
+          <Route path="/portfolio">
             <Header active="portfolio" />
             <Portfolio />
             <Footer />
-          </Suspense>
-        </Route>
-      </Switch>
+          </Route>
+        </Switch>
+      </Suspense>
     </Router>
     );
 }
