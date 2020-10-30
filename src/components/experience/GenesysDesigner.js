@@ -19,7 +19,7 @@ const GenesysDesigner = props => {
         <p>While at Genesys I worked on a number of client-facing products that cut across both B2B and B2C categories.
         I also worked on multidisciplinary teams to achieve products success - I worked with developers, designers,
           project managers, testers and stakeholders constantly.</p>
-        <ul>
+        <ul className={style.default__list}>
           <li>
             <p>Resource Edge: My designer colleagues and I redesigned the company’s employee  management system.</p>
             <p>The system helps employee to keep track of their KPI from the beginning of the quarter till the quarter ends.

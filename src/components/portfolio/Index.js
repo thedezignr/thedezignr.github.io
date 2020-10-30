@@ -108,9 +108,9 @@ const Portfolio = props => {
           <p><a href="https://www.sd.com" className={`boring__link ${style.arrow__link}`}>View case study</a></p>
         </div>
       </div>
-      <div className={style.work__card}>
+      {/* <div className={style.work__card}>
         <p><a href="https://www.sd.com" className={`boring__link ${style.arrow__link}`}>My Design Process</a></p>
-      </div>
+      </div> */}
     </section>
   );
 };

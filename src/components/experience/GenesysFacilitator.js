@@ -18,7 +18,7 @@ const GenesysFacilitator = props => {
         </div>
         <p>Genesys Tech Hub takes interns every year and trains them on Product Design.
           This year I was one of the facilitators and I took them on the topics below;</p>
-        <ul>
+        <ul className={style.default__list}>
           <li>
             <p>UI Design Patterns</p>
           </li>

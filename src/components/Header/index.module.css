@@ -29,6 +29,10 @@ aside:not(.active) .prev::before {
   color: var(--blue);
 }
 
+.header__name__mobile {
+  display: none;
+}
+
 aside:not(.active) .next::after {
   content: "";
   display: inline-block;
@@ -36,4 +40,29 @@ aside:not(.active) .next::after {
   width: 19px;
   margin-left: 10px;
   background: url(../../assets/right_arrow.svg);
+}
+
+@media screen and (max-width: 800px) {
+  .main__header {
+    margin: 56px 20px;
+    height: 50px;
+    line-height: 0;
+    border-top: 1px solid var(--gray-1);
+  }
+
+  .header__name {
+    display: none!important;
+  }
+
+  .header__name__mobile {
+    color: var(--blue);
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    height: 56px;
+    line-height: 2;
+  }
 }

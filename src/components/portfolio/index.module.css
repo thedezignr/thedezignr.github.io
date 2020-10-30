@@ -96,3 +96,25 @@
   margin-left: 10px;
   background: url(../../assets/right_arrow.svg);
 }
+
+@media screen and (max-width: 800px) {
+  .main__container {
+    padding-bottom: 60px;
+  }
+  .work__card {
+    width: 335px;
+    height: 335px;
+    margin: auto;
+    display: block;
+    margin-bottom: 30px;
+  }
+  .work__card:nth-child(3n) {
+    margin-right: inherit;
+  }
+  .work__card img {
+    opacity: 0.3;
+  }
+  .work__card>.card__hover {
+    opacity: 1;
+  }
+}

@@ -1,7 +1,6 @@
 .footer {
   height: 160px;
   width: 100%;
-  /* border-top: 2px solid var(--gray-2); */
 }
 
 .positioned__footer {
@@ -24,4 +23,16 @@
 
 footer:not(.positioned__footer) .socials>button {
   line-height: 12;
+}
+
+@media screen and (max-width: 800px) {
+  .footer {
+    height: 80px;
+  }
+  .positioned__footer>.socials {
+    margin-top: 40px;
+  }
+  footer:not(.positioned__footer) .socials>button {
+    line-height: 6;
+  }
 }

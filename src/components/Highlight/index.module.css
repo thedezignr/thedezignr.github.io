@@ -18,3 +18,14 @@
   text-align: center;
   color: var(--gray);
 }
+
+@media screen and (max-width: 800px) {
+  .main__container {
+    width: 76%;
+  }
+
+  .main__container>h1 {
+    font-size: 2.38720625rem;
+    line-height: 2.875rem;
+  }
+}

@@ -71,6 +71,8 @@ section.main__container>section:last-child>main {
   font-size: 1rem;
   line-height: 1.5625rem;
   text-decoration: none;
+  margin-bottom: 60px;
+  display: block;
 }
 
 .details__link::after {
@@ -97,4 +99,107 @@ section.main__container>section:last-child>main {
 
 .socials {
   text-align: right;
+}
+
+.clients {
+  margin-bottom: 120px;
+}
+
+@media screen and (max-width: 800px) {
+  .main__container {
+    margin: 0 5.333333333333334%;
+    padding-bottom: 60px;
+  }
+
+  section.main__container>section:first-child {
+    width: 100%;
+  }
+
+  .socials__container {
+    display: none!important;
+  }
+
+  .main__container h1 {
+    font-size: 2.38720625rem;
+    line-height: 2.875rem;
+    margin-bottom: 20px;
+  }
+
+  .header__marker {
+    margin: 0 0 40px;
+  }
+
+  .details__link {
+    margin-bottom: 40px;
+    margin-top: 15px;
+  }
+
+  .details__link:last-child {
+    margin-bottom: 0;
+  }
+
+  section.main__container>section:last-child {
+    width: 100%;
+  }
+
+  section.main__container>section:last-child>main {
+    margin-top: 40px;
+  }
+
+  .two__columns_list li {
+    font-size: 1rem;
+    line-height: 1.625rem;
+    color: var(--gray-3);
+  }
+
+  .default__list {
+    padding: 0;
+    padding-left: 20px;
+  }
+
+  .clients {
+    margin-bottom: 60px;
+  }
+
+  .mobile__collapsible__wrapper {
+    border-top: 1px solid var(--gray-1);
+    border-bottom: 1px solid var(--gray-1);
+  }
+
+  .mobile__collapsible__wrapper>section {
+    margin-top: 40px;
+  }
+
+  .mobile__collapsible__wrapper>section:first-child {
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--gray-1);
+  }
+
+  .mobile__skills__header {
+    font-weight: bold;
+    font-size: 1.618rem;
+    margin-top: 0;
+    cursor: pointer;
+  }
+
+  .mobile__skills__header:not(.header__active)::after {
+    content: "";
+    background: url(../../assets/plus.svg);
+    width: 16px;
+    height: 16px;
+    float: right;
+  }
+
+  .mobile__skills__header.header__active::after {
+    content: "";
+    background: url(../../assets/minus.svg);
+    width: 16px;
+    height: 2px;
+    float: right;
+    margin-top: 12px;
+  }
+
+  .collapsed {
+    display: none!important;
+  }
 }

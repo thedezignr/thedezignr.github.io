@@ -19,7 +19,7 @@ const Tenece = props => {
         <p>At Tenece, I worked on company products and client-facing products, gaining hands-on experience on B2B products and
         SaaS products. I constantly worked as the only designer in multi-disciplinary teams of developers, testers,
           project managers, customer service representatives, business development people and stakeholders.</p>
-        <ul>
+        <ul className={style.default__list}>
           <li>
             <p>Dynamo: I designed a developer interface that allowed developers build a framework that is used to quickly
             create various management information systems without having to worry about architecture and system interfaces.

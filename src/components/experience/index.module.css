@@ -7,3 +7,15 @@
 .main__container>main p {
   color: var(--gray-4);
 }
+
+@media screen and (max-width: 800px) {
+  .main__container {
+    margin: 0 5.333333333333334%;
+    padding-bottom: 60px;
+  }
+
+  .default__list {
+    padding: 0;
+    padding-left: 20px;
+  }
+}
