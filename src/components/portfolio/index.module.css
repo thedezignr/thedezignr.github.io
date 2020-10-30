@@ -111,8 +111,20 @@
   .work__card:nth-child(3n) {
     margin-right: inherit;
   }
-  .work__card img {
-    opacity: 0.3;
+  .work__card>.card__hover {
+    opacity: 1;
+  }
+}
+
+@media screen and (min-width: 801px) and (max-width: 1130px) {
+  .main__container {
+    max-width: 730px;
+  }
+  .work__card:nth-child(3n) {
+    margin-right: 30px;
+  }
+  .work__card:nth-child(2n) {
+    margin-right: 0px!important;
   }
   .work__card>.card__hover {
     opacity: 1;
