@@ -97,13 +97,8 @@
   background: url(../../assets/right_arrow.svg);
 }
 
-@media screen and (max-width: 800px) {
-  .main__container {
-    padding-bottom: 60px;
-  }
+@media screen and (max-width: 710px) {
   .work__card {
-    width: 335px;
-    height: 335px;
     margin: auto;
     display: block;
     margin-bottom: 30px;
@@ -111,12 +106,22 @@
   .work__card:nth-child(3n) {
     margin-right: inherit;
   }
+}
+
+@media screen and (max-width: 800px) {
+  .main__container {
+    padding-bottom: 60px;
+  }
+  .work__card {
+    width: 335px;
+    height: 335px;
+  }
   .work__card>.card__hover {
     opacity: 1;
   }
 }
 
-@media screen and (min-width: 801px) and (max-width: 1130px) {
+@media screen and (min-width: 711px) and (max-width: 1130px) {
   .main__container {
     max-width: 730px;
   }
