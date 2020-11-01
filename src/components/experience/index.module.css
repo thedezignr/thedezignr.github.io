@@ -8,12 +8,21 @@
   color: var(--gray-4);
 }
 
+.genesys__facilitator {
+  height: 56vh;
+}
+
+@media screen and (max-height: 600px) {
+  .genesys__facilitator {
+    height: 50vh;
+  }
+}
+
 @media screen and (max-width: 800px) {
   .main__container {
     margin: 0 5.333333333333334%;
     padding-bottom: 60px;
   }
-
   .default__list {
     padding: 0;
     padding-left: 20px;

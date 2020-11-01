@@ -3,7 +3,7 @@ import style from "./index.module.css";
 const GenesysFacilitator = props => {
 
   return (
-    <section className={style.main__container} style={{ height: "56vh" }}>
+    <section className={`${style.main__container} ${style.genesys__facilitator}`}>
       <main className="main__body">
         <div className="table">
           <div className="table__row">
