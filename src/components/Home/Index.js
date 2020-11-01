@@ -95,7 +95,7 @@ const Skills = () => {
   const [isCollapsed, toggleCollapse] = useState(true);
 
   return (
-    <section id="skills">
+    <section id="skills" className={`${!isCollapsed ? style.section__active : ""}`}>
       <h3
         onClick={() => { toggleCollapse(!isCollapsed); }}
         className={`${style.mobile__skills__header} ${!isCollapsed ? style.header__active : ""}`}>Skills</h3>
@@ -162,7 +162,7 @@ const Tools = () => {
   const [isCollapsed, toggleCollapse] = useState(true);
 
   return (
-    <section id="tools">
+    <section id="tools" className={`${!isCollapsed ? style.section__active : ""}`}>
       <h3
         onClick={() => { toggleCollapse(!isCollapsed); }}
         className={`${style.mobile__skills__header} ${!isCollapsed ? style.header__active : ""}`}>Tools</h3>

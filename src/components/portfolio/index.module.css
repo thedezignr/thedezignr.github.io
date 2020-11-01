@@ -2,7 +2,7 @@
   padding-bottom: 120px;
   max-width: 1110px;
   margin: 10px auto;
-  border-bottom: 2px solid var(--gray-2);
+  border-bottom: 1px solid var(--gray-1);
 }
 
 .work__card {

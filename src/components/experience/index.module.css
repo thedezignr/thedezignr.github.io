@@ -1,7 +1,7 @@
 .main__container {
   margin: 10px 11.46% 0;
   padding-bottom: 120px;
-  border-bottom: 2px solid var(--gray-2);
+  border-bottom: 1px solid var(--gray-1);
 }
 
 .main__container>main p {

@@ -9,7 +9,7 @@
 }
 
 .main__container:last-child {
-  border-bottom: 2px solid var(--gray-2);
+  border-bottom: 1px solid var(--gray-1);
 }
 
 .main__container h1 {
@@ -170,7 +170,7 @@ section.main__container>section:last-child>main {
     margin-top: 40px;
   }
 
-  .mobile__collapsible__wrapper>section:first-child {
+  .mobile__collapsible__wrapper>section.section__active:first-child {
     padding-bottom: 10px;
     border-bottom: 1px solid var(--gray-1);
   }
