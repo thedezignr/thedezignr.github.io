@@ -32,14 +32,35 @@ const Portfolio = props => {
   }, { threshold: 1 });
 
   useEffect(() => {
-    observer.observe(footballRef.current);
-    observer.observe(loanRef.current);
-    observer.observe(inventopalRef.current);
-    observer.observe(hexcordRef.current);
-    observer.observe(spineroRef.current);
-    observer.observe(sprintRef.current);
-    observer.observe(pizzaJungleRef.current);
-    observer.observe(deliverieRef.current);
+    const fr = footballRef.current;
+    const lr = loanRef.current;
+    const ir = inventopalRef.current;
+    const hr = hexcordRef.current;
+    const sr = spineroRef.current;
+    const spr = sprintRef.current;
+    const pr = pizzaJungleRef.current;
+    const dr = deliverieRef.current;
+    observer.observe(fr);
+    observer.observe(lr);
+    observer.observe(ir);
+    observer.observe(hr);
+    observer.observe(sr);
+    observer.observe(spr);
+    observer.observe(pr);
+    observer.observe(dr);
+
+    return () => {
+      observer.unobserve(fr);
+      observer.unobserve(lr);
+      observer.unobserve(ir);
+      observer.unobserve(hr);
+      observer.unobserve(sr);
+      observer.unobserve(spr);
+      observer.unobserve(pr);
+      observer.unobserve(dr);
+    }
+    
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (
