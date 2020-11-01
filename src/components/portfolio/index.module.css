@@ -116,8 +116,11 @@
     width: 335px;
     height: 335px;
   }
-  .work__card>.card__hover {
+  .work__card.active>.card__hover {
     opacity: 1;
+  }
+  .work__card.active img {
+    opacity: 0.3;
   }
 }
 
@@ -131,7 +134,10 @@
   .work__card:nth-child(2n) {
     margin-right: 0px!important;
   }
-  .work__card>.card__hover {
+  .work__card.active>.card__hover {
     opacity: 1;
+  }
+  .work__card.active img {
+    opacity: 0.3;
   }
 }

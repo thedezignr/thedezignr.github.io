@@ -18,7 +18,7 @@ const getAbout = () => (
       <p>
         I am interested in new opportunities to design products that REALLY solve a problem.
             </p>
-      <button type="button" className={["no__border", style.download_button].join(" ")}>Download Resume</button>
+      <button type="button" className={["no__border", style.download_button].join(" ")}>View my resume</button>
     </main>
   </section>
 );

@@ -7,11 +7,14 @@ import Spinero from "../../assets/spinero.svg";
 import Sprinttrip from "../../assets/sprinttrip.svg";
 import PizzaJungle from "../../assets/pizza_jungle.svg";
 import Deliverie from "../../assets/deliverie.svg";
+import { useState } from 'react';
 
 const Portfolio = props => {
+  const [active, setActive] = useState(0);
+
   return (
     <section id="portfolio" className={style.main__container}>
-      <div style={{ backgroundColor: "#4FFF71" }} className={style.work__card}>
+      <div style={{ backgroundColor: "#4FFF71" }} onClick={() => { setActive(0); }} className={`${style.work__card} ${active === 0 ? style.active : ""}`}>
         <span className={style.helper}></span>
         <img src={LoveFootball} alt="love football" />
         <div className={style.card__hover}>
@@ -24,7 +27,7 @@ const Portfolio = props => {
           <p><a href="https://www.sd.com" className={`boring__link ${style.arrow__link}`}>View case study</a></p>
         </div>
       </div>
-      <div style={{ backgroundColor: "#D3E468" }} className={style.work__card}>
+      <div style={{ backgroundColor: "#D3E468" }} onClick={() => { setActive(1); }} className={`${style.work__card} ${active === 1 ? style.active : ""}`}>
         <span className={style.helper}></span>
         <img src={LoanUp} alt="loan up" />
         <div className={style.card__hover}>
@@ -36,7 +39,7 @@ const Portfolio = props => {
           <p><a href="https://www.sd.com" className={`boring__link ${style.arrow__link}`}>View case study</a></p>
         </div>
       </div>
-      <div style={{ backgroundColor: "#0260ED" }} className={style.work__card}>
+      <div style={{ backgroundColor: "#0260ED" }} onClick={() => { setActive(2); }} className={`${style.work__card} ${active === 2 ? style.active : ""}`}>
         <span className={style.helper}></span>
         <img src={Inventopal} alt="inventopal" />
         <div className={style.card__hover}>
@@ -48,7 +51,7 @@ const Portfolio = props => {
           <p><a href="https://www.sd.com" className={`boring__link ${style.arrow__link}`}>View case study</a></p>
         </div>
       </div>
-      <div style={{ backgroundColor: "#0000FF" }} className={style.work__card}>
+      <div style={{ backgroundColor: "#0000FF" }} onClick={() => { setActive(3); }} className={`${style.work__card} ${active === 3 ? style.active : ""}`}>
         <span className={style.helper}></span>
         <img src={Hexcord} alt="hexcord" />
         <div className={style.card__hover}>
@@ -60,7 +63,7 @@ const Portfolio = props => {
           <p><a href="https://www.sd.com" className={`boring__link ${style.arrow__link}`}>View case study</a></p>
         </div>
       </div>
-      <div style={{ backgroundColor: "#F2F2F2" }} className={style.work__card}>
+      <div style={{ backgroundColor: "#F2F2F2" }} onClick={() => { setActive(4); }} className={`${style.work__card} ${active === 4 ? style.active : ""}`}>
         <span className={style.helper}></span>
         <img src={Spinero} alt="spinero" />
         <div className={style.card__hover}>
@@ -72,7 +75,7 @@ const Portfolio = props => {
           <p><a href="https://www.sd.com" className={`boring__link ${style.arrow__link}`}>View case study</a></p>
         </div>
       </div>
-      <div style={{ backgroundColor: "#58D658" }} className={style.work__card}>
+      <div style={{ backgroundColor: "#58D658" }} onClick={() => { setActive(5); }} className={`${style.work__card} ${active === 5 ? style.active : ""}`}>
         <span className={style.helper}></span>
         <img src={Sprinttrip} alt="sprint trip" />
         <div className={style.card__hover}>
@@ -84,7 +87,7 @@ const Portfolio = props => {
           <p><a href="https://www.sd.com" className={`boring__link ${style.arrow__link}`}>View case study</a></p>
         </div>
       </div>
-      <div style={{ backgroundColor: "#FC5353" }} className={style.work__card}>
+      <div style={{ backgroundColor: "#FC5353" }} onClick={() => { setActive(6); }} className={`${style.work__card} ${active === 6 ? style.active : ""}`}>
         <span className={style.helper}></span>
         <img src={PizzaJungle} alt="pizza jungle" />
         <div className={style.card__hover}>
@@ -96,7 +99,7 @@ const Portfolio = props => {
           <p><a href="https://www.sd.com" className={`boring__link ${style.arrow__link}`}>View case study</a></p>
         </div>
       </div>
-      <div style={{ backgroundColor: "#0E87DC" }} className={style.work__card}>
+      <div style={{ backgroundColor: "#0E87DC" }} onClick={() => { setActive(7); }} className={`${style.work__card} ${active === 7 ? style.active : ""}`}>
         <span className={style.helper}></span>
         <img src={Deliverie} alt="deliverie app" />
         <div className={style.card__hover}>
@@ -108,9 +111,6 @@ const Portfolio = props => {
           <p><a href="https://www.sd.com" className={`boring__link ${style.arrow__link}`}>View case study</a></p>
         </div>
       </div>
-      {/* <div className={style.work__card}>
-        <p><a href="https://www.sd.com" className={`boring__link ${style.arrow__link}`}>My Design Process</a></p>
-      </div> */}
     </section>
   );
 };
