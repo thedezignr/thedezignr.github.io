@@ -2,6 +2,8 @@
   margin: 10px 11.46% 0;
   padding-bottom: 120px;
   border-bottom: 1px solid var(--gray-1);
+  display: flex;
+  justify-content: space-between;
 }
 
 .main__container>main p {
@@ -10,6 +12,10 @@
 
 .genesys__facilitator {
   height: 56vh;
+}
+
+.responsibilities__wrapper {
+  text-align: right;
 }
 
 @media screen and (max-height: 600px) {
@@ -22,9 +28,13 @@
   .main__container {
     margin: 0 5.333333333333334%;
     padding-bottom: 60px;
+    display: block;
   }
   .default__list {
     padding: 0;
     padding-left: 20px;
+  }
+  .responsibilities__wrapper {
+    text-align: left;
   }
 }

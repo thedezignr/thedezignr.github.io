@@ -51,6 +51,26 @@ const Tenece = props => {
           </li>
         </ul>
       </main>
+      <aside className={style.responsibilities__wrapper}>
+        <main className="main__body">
+          <h3>Reponsibilities</h3>
+          <ul className="boring__list">
+            <li>Qualitative Research</li>
+            <li>Quantitative Research</li>
+            <li>User Personas</li>
+            <li>Information Architecture</li>
+            <li>Wireframing</li>
+            <li>Design thinking</li>
+            <li>Usability Testing</li>
+            <li>Heuristics Evaluation</li>
+            <li>A/B Testing</li>
+            <li>UI Design</li>
+            <li>Design Systems</li>
+            <li>Low - Hi Fidelity Mockups</li>
+            <li>UX Strategy</li>
+          </ul>
+        </main>
+      </aside>
     </section >
   );
 };

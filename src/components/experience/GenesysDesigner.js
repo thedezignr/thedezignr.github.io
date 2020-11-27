@@ -39,6 +39,17 @@ const GenesysDesigner = props => {
           </li>
         </ul>
       </main>
+      <aside className={style.responsibilities__wrapper}>
+        <main className="main__body">
+          <h3>Reponsibilities</h3>
+          <ul className="boring__list">
+            <li>UI Design</li>
+            <li>UX Strategy</li>
+            <li>Wireframing</li>
+            <li>Information Architecture</li>
+          </ul>
+        </main>
+      </aside>
     </section >
   );
 };
