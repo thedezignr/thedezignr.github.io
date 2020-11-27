@@ -88,6 +88,51 @@ button:active, button:focus {
   line-height: 1.625rem;
 }
 
+.regular__bold__text {
+  font-weight: bold!important;
+  font-size: 1rem!important;
+  line-height: 1.625rem!important;
+  color: var(--white)!important;
+}
+
+.arrow__link {
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.625rem;
+}
+
+.arrow__link::after {
+  content: "";
+  display: inline-block;
+  height: 8px;
+  width: 19px;
+  margin-left: 10px;
+  background: url(./assets/right_arrow.svg);
+}
+
+.arrow__left__link {
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.625rem;
+}
+
+.arrow__left__link::before {
+  content: "";
+  display: inline-block;
+  height: 8px;
+  width: 19px;
+  margin-right: 10px;
+  background: url(./assets/left_arrow.svg);
+}
+
+.pull__left {
+  float: left;
+}
+
+.pull__right {
+  float: right;
+}
+
 .main__body {
   width: 39rem;
 }
@@ -150,17 +195,14 @@ button:active, button:focus {
   .main__body {
     width: 100%;
   }
-
   .main__body p {
     margin: 20px 0;
   }
-
   .table__cell {
     display: block;
     width: 100%;
     text-align: left!important;
   }
-
   .table__cell p {
     margin: 5px 0px;
   }
