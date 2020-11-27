@@ -24,7 +24,7 @@
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1024px) {
   .main__container {
     margin: 0 5.333333333333334%;
     padding-bottom: 60px;
