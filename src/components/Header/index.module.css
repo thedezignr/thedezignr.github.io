@@ -25,8 +25,16 @@ aside:not(.active) .prev::before {
   background: url(../../assets/left_arrow.svg);
 }
 
+.prev:hover, .next:hover {
+  color: var(--hover);
+}
+
 .header__name {
   color: var(--blue);
+}
+
+.header__name>a:hover {
+  color: var(--blue-hover);
 }
 
 .header__name__mobile {
@@ -49,11 +57,9 @@ aside:not(.active) .next::after {
     line-height: 0;
     border-top: 1px solid var(--gray-1);
   }
-
   .header__name {
     display: none!important;
   }
-
   .header__name__mobile {
     color: var(--blue);
     display: block;

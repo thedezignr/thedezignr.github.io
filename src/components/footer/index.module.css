@@ -21,7 +21,7 @@
   margin-top: 80px;
 }
 
-footer:not(.positioned__footer) .socials>button {
+footer:not(.positioned__footer) .socials>a {
   line-height: 12;
 }
 
@@ -32,7 +32,7 @@ footer:not(.positioned__footer) .socials>button {
   .positioned__footer>.socials {
     margin-top: 40px;
   }
-  footer:not(.positioned__footer) .socials>button {
+  footer:not(.positioned__footer) .socials>a {
     line-height: 6;
   }
 }

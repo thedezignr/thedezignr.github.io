@@ -54,6 +54,16 @@ section.main__container>section:last-child>main {
   font-weight: normal;
   font-size: 16px;
   color: var(--white);
+  padding: 1em 3em;
+}
+
+.download_button:hover {
+  background: var(--hover);
+}
+
+.download_button:active, .download_button:focus {
+  background: var(--white);
+  color: var(--red);
 }
 
 .header__marker {
@@ -73,6 +83,10 @@ section.main__container>section:last-child>main {
   text-decoration: none;
   margin-bottom: 60px;
   display: block;
+}
+
+.details__link:hover {
+  color: var(--blue-hover);
 }
 
 .details__link::after {

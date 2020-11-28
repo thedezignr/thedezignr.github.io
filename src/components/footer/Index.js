@@ -3,21 +3,21 @@ import style from "./index.module.css";
 const Footer = props => {
   return (
     <footer className={`${style.footer} ${props.forHighlight ? style.positioned__footer : ""}`}>
-        <div className={style.socials}>
-          <button type="button" className="no__background no__border">
-            <span className="icon dribble"></span>
-          </button>
-          <button type="button" className="no__background no__border">
-            <span className="icon twitter"></span>
-          </button>
-          <button type="button" className="no__background no__border">
-            <span className="icon linkedin"></span>
-          </button>
-          <button type="button" className="no__background no__border">
-            <span className="icon email"></span>
-          </button>
-        </div>
-      </footer>
+      <div className={style.socials}>
+        <a href="https://dribbble.com/theDezignr " className="no__background no__border boring__link">
+          <span className="icon dribble"></span>
+        </a>
+        <a href="https://twitter.com/thedezignr_" className="no__background no__border">
+          <span className="icon twitter"></span>
+        </a>
+        <a href="https://www.linkedin.com/in/angel-opoku" className="no__background no__border">
+          <span className="icon linkedin"></span>
+        </a>
+        <a href="mailto:angelopoku2@gmail.com" className="no__background no__border">
+          <span className="icon email"></span>
+        </a>
+      </div>
+    </footer>
   );
 };
 

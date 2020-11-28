@@ -18,7 +18,7 @@ const getAbout = () => (
       <p>
         I am interested in new opportunities to design products that REALLY solve a problem.
             </p>
-      <button type="button" className={["no__border", style.download_button].join(" ")}>View my resume</button>
+      <a href="https://bit.ly/angelopokuCV" className={["no__border", "boring__link", style.download_button].join(" ")}>View my resume</a>
     </main>
   </section>
 );
@@ -28,24 +28,24 @@ const getSocials = () => (
     <div className={style.socials}>
       <ul className="boring__list">
         <li>
-          <button type="button" style={{ marginBottom: "40px" }} className="no__background no__border">
+          <a href="https://dribbble.com/theDezignr " style={{ marginBottom: "40px", display: "block" }} className="no__background no__border boring__link">
             <span className="icon dribble"></span>
-          </button>
+          </a>
         </li>
         <li>
-          <button type="button" style={{ marginBottom: "40px" }} className="no__background no__border">
+          <a href="https://twitter.com/thedezignr_" style={{ marginBottom: "40px", display: "block" }} className="no__background no__border">
             <span className="icon twitter"></span>
-          </button>
+          </a>
         </li>
         <li>
-          <button type="button" style={{ marginBottom: "40px" }} className="no__background no__border">
+          <a href="https://www.linkedin.com/in/angel-opoku" style={{ marginBottom: "40px", display: "block" }} className="no__background no__border">
             <span className="icon linkedin"></span>
-          </button>
+          </a>
         </li>
         <li>
-          <button type="button" style={{ marginBottom: "40px" }} className="no__background no__border">
+          <a href="mailto:angelopoku2@gmail.com" style={{ marginBottom: "40px", display: "block" }} className="no__background no__border">
             <span className="icon email"></span>
-          </button>
+          </a>
         </li>
       </ul>
     </div>

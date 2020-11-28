@@ -8,6 +8,8 @@
   --gray-2: #4F4F4F;
   --gray-3: #828282;
   --gray-4: #BDBDBD;
+  --hover: #F38E9A;
+  --blue-hover: #92B7DD;
 }
 
 html {
@@ -52,27 +54,36 @@ button:active, button:focus {
 }
 
 .dribble {
-  background: url(./assets/dribble.svg);
+  mask: url(./assets/dribble.svg);
+  background: var(--gray-3);
 }
 
 .twitter {
-  background: url(./assets/twitter.svg);
+  mask: url(./assets/twitter.svg);
+  background: var(--gray-3);
   width: 27px;
 }
 
 .linkedin {
-  background: url(./assets/linkedin.svg);
+  mask: url(./assets/linkedin.svg);
+  background: var(--gray-3);
   width: 24px;
 }
 
 .email {
-  background: url(./assets/email.svg);
+  mask: url(./assets/email.svg);
+  background: var(--gray-3);
   width: 28px;
+}
+
+.dribble:hover, .twitter:hover, .linkedin:hover, .email:hover {
+  background: var(--white);
 }
 
 .boring__link {
   text-decoration: none;
   color: inherit;
+  cursor: pointer;
 }
 
 .boring__list {
@@ -187,7 +198,6 @@ button:active, button:focus {
 
 .image__loader {
   animation: image_loading 5s linear infinite;
-  display: block;
 }
 
 @-webkit-keyframes image_loading {
