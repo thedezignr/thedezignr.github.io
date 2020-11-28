@@ -6,16 +6,24 @@
   justify-content: space-between;
 }
 
+.main__container>section:first-of-type {
+  width: 84%;
+  display: inline-block;
+}
+
+.main__container>aside:first-of-type {
+  width: 16%;
+  display: inline-block;
+  vertical-align: top;
+  min-width: 183px;
+}
+
 .main__container>main p {
   color: var(--gray-4);
 }
 
 .genesys__facilitator {
   height: 56vh;
-}
-
-.responsibilities__wrapper {
-  text-align: right;
 }
 
 @media screen and (max-height: 600px) {
@@ -34,7 +42,10 @@
     padding: 0;
     padding-left: 20px;
   }
-  .responsibilities__wrapper {
-    text-align: left;
+  .main__container>section:first-of-type {
+    width: 100%;
+  }
+  .main__container>aside:first-of-type {
+    width: 100%;
   }
 }

@@ -126,25 +126,23 @@ const LoveFootball = () => {
             </ul>
             <p>Due to the constraints of timelines and budgets, I had to make do with what I had.</p>
           </main>
-          <aside className={style.responsibilities__wrapper}>
-            <main className="main__body">
-              <h3>My Role</h3>
-              <ul className="boring__list">
-                <li>UI Designer</li>
-                <li>UX Designer</li>
-              </ul>
-              <h3>Reponsibilities</h3>
-              <ul className="boring__list">
-                <li>Qualitative Research</li>
-                <li>Quantitative Research Analysis</li>
-                <li>User Personas</li>
-                <li>Empathy Map</li>
-                <li>Brainstorming</li>
-                <li>UI Design</li>
-              </ul>
-            </main>
-          </aside>
         </section>
+        <aside className={style.responsibilities__wrapper}>
+          <h3>My Role</h3>
+          <ul className="boring__list">
+            <li>UI Designer</li>
+            <li>UX Designer</li>
+          </ul>
+          <h3>Reponsibilities</h3>
+          <ul className="boring__list">
+            <li>Qualitative Research</li>
+            <li>Quantitative Research Analysis</li>
+            <li>User Personas</li>
+            <li>Empathy Map</li>
+            <li>Brainstorming</li>
+            <li>UI Design</li>
+          </ul>
+        </aside>
         <footer className={style.footer}>
           <p>
             <NavLink to="/p/loan_up" className="boring__link arrow__link pull__right">Next Post</NavLink>

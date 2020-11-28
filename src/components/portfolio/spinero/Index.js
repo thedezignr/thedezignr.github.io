@@ -21,20 +21,18 @@ const Spinero = () => {
             <img className={style.major__image} src={spinero_screen_2} alt="Some screens from Spinero Mobile" />
             <h4 className={style.alt__text}>Some screens from Spinero Mobile</h4>
           </main>
-          <aside className={style.responsibilities__wrapper}>
-            <main className="main__body">
-              <h3>My Role</h3>
-              <ul className="boring__list">
-                <li>UI Designer</li>
-              </ul>
-              <h3>Reponsibilities</h3>
-              <ul className="boring__list">
-                <li>User Flow</li>
-                <li>UI Design</li>
-              </ul>
-            </main>
-          </aside>
         </section>
+        <aside className={style.responsibilities__wrapper}>
+          <h3>My Role</h3>
+          <ul className="boring__list">
+            <li>UI Designer</li>
+          </ul>
+          <h3>Reponsibilities</h3>
+          <ul className="boring__list">
+            <li>User Flow</li>
+            <li>UI Design</li>
+          </ul>
+        </aside>
         <footer className={style.footer}>
           <p>
             <NavLink to="/p/deliverie" className="boring__link arrow__left__link pull__left">Previous Post</NavLink>

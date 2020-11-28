@@ -18,20 +18,18 @@ const Deliverie = () => {
             <img className={style.major__image} src={deliverie_ui} alt="Deliverie’s Wireframe" />
             <h4 className={style.alt__text}>Deliverie’s Wireframe</h4>
           </main>
-          <aside className={style.responsibilities__wrapper}>
-            <main className="main__body">
-              <h3>My Role</h3>
-              <ul className="boring__list">
-                <li>UI Designer</li>
-              </ul>
-              <h3>Reponsibilities</h3>
-              <ul className="boring__list">
-                <li>User Flow</li>
-                <li>UI design</li>
-              </ul>
-            </main>
-          </aside>
         </section>
+        <aside className={style.responsibilities__wrapper}>
+          <h3>My Role</h3>
+          <ul className="boring__list">
+            <li>UI Designer</li>
+          </ul>
+          <h3>Reponsibilities</h3>
+          <ul className="boring__list">
+            <li>User Flow</li>
+            <li>UI design</li>
+          </ul>
+        </aside>
         <footer className={style.footer}>
           <p>
             <NavLink to="/p/pizza_jungle" className="boring__link arrow__left__link pull__left">Previous Post</NavLink>

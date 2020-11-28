@@ -17,19 +17,17 @@ const Sprintrip = () => {
             <img className={style.major__image} src={sprinttrip_screen} alt="Some screens from Sprintrip" />
             <h4 className={style.alt__text}>Some screens from Sprintrip</h4>
           </main>
-          <aside className={style.responsibilities__wrapper}>
-            <main className="main__body">
-              <h3>My Role</h3>
-              <ul className="boring__list">
-                <li>UI Designer</li>
-              </ul>
-              <h3>Reponsibilities</h3>
-              <ul className="boring__list">
-                <li>UI Design</li>
-              </ul>
-            </main>
-          </aside>
         </section>
+        <aside className={style.responsibilities__wrapper}>
+          <h3>My Role</h3>
+          <ul className="boring__list">
+            <li>UI Designer</li>
+          </ul>
+          <h3>Reponsibilities</h3>
+          <ul className="boring__list">
+            <li>UI Design</li>
+          </ul>
+        </aside>
         <footer className={style.footer}>
           <p>
             <NavLink to="/p/spinero" className="boring__link arrow__left__link pull__left">Previous Post</NavLink>

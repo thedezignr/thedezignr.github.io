@@ -21,21 +21,19 @@ const PizzaJungle = () => {
             <img className={style.major__image} src={pizza_jungle_ui} alt="Pizza Jungle’s UI" />
             <h4 className={style.alt__text}>Pizza Jungle’s UI</h4>
           </main>
-          <aside className={style.responsibilities__wrapper}>
-            <main className="main__body">
-              <h3>My Role</h3>
-              <ul className="boring__list">
-                <li>UI Designer</li>
-              </ul>
-              <h3>Reponsibilities</h3>
-              <ul className="boring__list">
-                <li>User Flow</li>
-                <li>Wireframes</li>
-                <li>UI design</li>
-              </ul>
-            </main>
-          </aside>
         </section>
+        <aside className={style.responsibilities__wrapper}>
+          <h3>My Role</h3>
+          <ul className="boring__list">
+            <li>UI Designer</li>
+          </ul>
+          <h3>Reponsibilities</h3>
+          <ul className="boring__list">
+            <li>User Flow</li>
+            <li>Wireframes</li>
+            <li>UI design</li>
+          </ul>
+        </aside>
         <footer className={style.footer}>
           <p>
             <NavLink to="/p/hexcord" className="boring__link arrow__left__link pull__left">Previous Post</NavLink>

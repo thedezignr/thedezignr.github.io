@@ -113,24 +113,22 @@ const LoanUp = () => {
             <img className={style.major__image} src={loan_up_screens} alt="LoanUp Screens" />
             <h4 className={style.alt__text}>LoanUp Screens</h4>
           </main>
-          <aside className={style.responsibilities__wrapper}>
-            <main className="main__body">
-              <h3>My Role</h3>
-              <ul className="boring__list">
-                <li>UI Designer</li>
-                <li>UX Designer</li>
-              </ul>
-              <h3>Reponsibilities</h3>
-              <ul className="boring__list">
-                <li>Quantitative Research</li>
-                <li>User Personas</li>
-                <li>Wireflows</li>
-                <li>Wire-frames</li>
-                <li>UI design</li>
-              </ul>
-            </main>
-          </aside>
         </section>
+        <aside className={style.responsibilities__wrapper}>
+          <h3>My Role</h3>
+          <ul className="boring__list">
+            <li>UI Designer</li>
+            <li>UX Designer</li>
+          </ul>
+          <h3>Reponsibilities</h3>
+          <ul className="boring__list">
+            <li>Quantitative Research</li>
+            <li>User Personas</li>
+            <li>Wireflows</li>
+            <li>Wire-frames</li>
+            <li>UI design</li>
+          </ul>
+        </aside>
         <footer className={style.footer}>
           <p>
             <NavLink to="/p/love_football" className="boring__link arrow__left__link pull__left">Previous Post</NavLink>

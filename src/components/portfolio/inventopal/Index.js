@@ -59,21 +59,19 @@ const Inventopal = () => {
             <img className={style.major__image} src={inventopal_screen_2} alt="Some screens from Inventopal Mobile" />
             <h4 className={style.alt__text}>Some screens from Inventopal Mobile</h4>
           </main>
-          <aside className={style.responsibilities__wrapper}>
-            <main className="main__body">
-              <h3>My Role</h3>
-              <ul className="boring__list">
-                <li>UI Designer</li>
-                <li>UX Designer</li>
-              </ul>
-              <h3>Reponsibilities</h3>
-              <ul className="boring__list">
-                <li>Qualitative Research</li>
-                <li>UI design</li>
-              </ul>
-            </main>
-          </aside>
         </section>
+        <aside className={style.responsibilities__wrapper}>
+          <h3>My Role</h3>
+          <ul className="boring__list">
+            <li>UI Designer</li>
+            <li>UX Designer</li>
+          </ul>
+          <h3>Reponsibilities</h3>
+          <ul className="boring__list">
+            <li>Qualitative Research</li>
+            <li>UI design</li>
+          </ul>
+        </aside>
         <footer className={style.footer}>
           <p>
             <NavLink to="/p/loan_up" className="boring__link arrow__left__link pull__left">Previous Post</NavLink>
