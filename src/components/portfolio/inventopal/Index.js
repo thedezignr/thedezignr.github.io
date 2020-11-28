@@ -11,6 +11,13 @@ const Inventopal = () => {
           <main className="main__body">
             <h3>Inventopal</h3>
             <p>Inventopal is a pharmacy management system. It automates the sales and inventory system of a pharmacy.</p>
+            <aside className={style.mobile__roles_section}>
+              <h3>My Role</h3>
+              <ul className="boring__list">
+                <li>UI Designer</li>
+                <li>UX Designer</li>
+              </ul>
+            </aside>
             <h3>The Challenge</h3>
             <p>The average pharmacy owner is often plagued with a lot of problems concerning stock taking, stock analysis, and
               stock prediction.</p>

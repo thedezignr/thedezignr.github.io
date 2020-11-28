@@ -12,6 +12,12 @@ const Sprintrip = () => {
             <p>Sprint trip is an all-in-one service that solves the gaps in the travel and booking industry. Users can book,
             organize and manage services they need for travel in one place - Sprintrip. Users can also keep reciepts for future
               referencing.</p>
+            <aside className={style.mobile__roles_section}>
+              <h3>My Role</h3>
+              <ul className="boring__list">
+                <li>UI Designer</li>
+              </ul>
+            </aside>
             <h3>The Design</h3>
             <p>Here are some screens from Sprintrip...</p>
             <img className={style.major__image} src={sprinttrip_screen} alt="Some screens from Sprintrip" />

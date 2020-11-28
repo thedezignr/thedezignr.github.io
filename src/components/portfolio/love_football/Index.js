@@ -15,6 +15,13 @@ const LoveFootball = () => {
             <h3>LoveFootball App - Gamification</h3>
             <p>Lovefootball is a game for fantasy football lovers and football lovers where gamers compete for more points on an
           upcoming match. Its the only platform of its kind in Nigeria.</p>
+            <aside className={style.mobile__roles_section}>
+              <h3>My Role</h3>
+              <ul className="boring__list">
+                <li>UI Designer</li>
+                <li>UX Designer</li>
+              </ul>
+            </aside>
             <h3>The Challenge</h3>
             <p>Lovefootball is new to its Nigerian target market. Prior to Lovefootball, there was no Fantasy football gaming platform.</p>
             <p>I was tasked with a user-friendly strategy to make the app a habit forming product. I had the responsibilty of

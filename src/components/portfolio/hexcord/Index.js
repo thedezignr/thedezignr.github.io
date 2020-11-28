@@ -13,6 +13,13 @@ const Hexcord = () => {
             <h3>Hexcord</h3>
             <p>Hexcord is a simple to use tool for creating presentations, tutorial videos, recording talks, speeches or coding
               sessions and basically just recording anything that is on your computer screen including a face.</p>
+            <aside className={style.mobile__roles_section}>
+              <h3>My Role</h3>
+              <ul className="boring__list">
+                <li>UI Designer</li>
+                <li>UX Designer</li>
+              </ul>
+            </aside>
             <h3>The Challenge</h3>
             <p>Screen recording for users can be quite complex. Existing alternatives are complex and not suited to the needs of
             the non-expert user. Users who just want to record a video for an interview or a presentation usually have to learn

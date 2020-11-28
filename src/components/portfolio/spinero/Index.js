@@ -12,6 +12,12 @@ const Spinero = () => {
           <main className="main__body">
             <h3>Spinero</h3>
             <p>Spinero is a fashion house that sells its products through its e-commerce.</p>
+            <aside className={style.mobile__roles_section}>
+              <h3>My Role</h3>
+              <ul className="boring__list">
+                <li>UI Designer</li>
+              </ul>
+            </aside>
             <h3>The Design</h3>
             <p>Here are some screens from Spinero...</p>
             <img className={style.major__image} src={spinero_user_flow} style={{ background: "#FDFFFC" }} alt="Spinero’s User Flow" />

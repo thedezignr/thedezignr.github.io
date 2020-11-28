@@ -11,6 +11,12 @@ const Deliverie = () => {
           <main className="main__body">
             <h3>Deliverie</h3>
             <p>Deliverie is an app for dispatch riders. It is used to find available deliveries, pick them up and deliver them.</p>
+            <aside className={style.mobile__roles_section}>
+              <h3>My Role</h3>
+              <ul className="boring__list">
+                <li>UI Designer</li>
+              </ul>
+            </aside>
             <h3>The Design</h3>
             <p>Here are some screens from Deliverie...</p>
             <img className={style.major__image} src={deliverie_user_flow} alt="Deliverie’s User Flow" />

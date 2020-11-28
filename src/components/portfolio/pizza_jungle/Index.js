@@ -12,6 +12,12 @@ const PizzaJungle = () => {
           <main className="main__body">
             <h3>Pizza Jungle</h3>
             <p>Pizza Jungle is an app that is used to order pizza from any of Pizza Jungle’s branches.</p>
+            <aside className={style.mobile__roles_section}>
+              <h3>My Role</h3>
+              <ul className="boring__list">
+                <li>UI Designer</li>
+              </ul>
+            </aside>
             <h3>The Design</h3>
             <p>Here are some screens from Pizza Jungle...</p>
             <img className={style.major__image} src={pizza_jungle_user_flow} style={{ background: "#FDFFFC" }} alt="Pizza Jungle’s User Flow" />

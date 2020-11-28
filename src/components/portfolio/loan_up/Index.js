@@ -15,6 +15,13 @@ const LoanUp = () => {
             <h3>LoanUp</h3>
             <p>LoanUp is a fintech product. With LoanUp users are able to take loans and pay off the loans from the comfort of
               their homes.</p>
+            <aside className={style.mobile__roles_section}>
+              <h3>My Role</h3>
+              <ul className="boring__list">
+                <li>UI Designer</li>
+                <li>UX Designer</li>
+              </ul>
+            </aside>
             <h3>The Challenge</h3>
             <p>LoanUp is owned by a micro-finance bank that has been running an analogue loan service for years and have faced
               the following challenges;</p>

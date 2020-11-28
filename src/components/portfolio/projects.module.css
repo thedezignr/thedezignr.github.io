@@ -20,8 +20,13 @@
   color: var(--gray-4);
 }
 
-.main__container main>h3:not(:first-child) {
+.main__container main h3:not(:first-child) {
   margin-top: 63px;
+}
+
+.mobile__roles_section {
+  display: none;
+  margin-top: 50px;
 }
 
 .footer {
@@ -101,6 +106,15 @@
   }
   .main__container>aside:first-of-type {
     width: 100%;
+  }
+  .main__container>aside:first-of-type>h3:first-of-type, .main__container>aside:first-of-type>ul:first-of-type {
+    display: none;
+  }
+  .main__container main h3:not(:first-child) {
+    margin-top: 50px;
+  }
+  .mobile__roles_section {
+    display: block;
   }
   .major__image, .minor__image, .major__image__1 {
     width: 100%;
