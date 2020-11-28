@@ -68,7 +68,7 @@ const Portfolio = props => {
     <section id="portfolio" className={style.main__container}>
       <div ref={footballRef} onClick={() => { setActive(0); }} className={`${style.work__card} ${active === 0 ? style.active : ""}`}>
         <span className={style.helper}></span>
-        <img src={LoveFootball} alt="love football" />
+        <img onLoad={e => e.target.classList.remove("image__loader")} className="image__loader" src={LoveFootball} alt="love football" />
         <div className={style.card__hover}>
           <p style={{ marginBottom: "64px" }}>UI/UX Design</p>
           <div>
@@ -81,7 +81,7 @@ const Portfolio = props => {
       </div>
       <div ref={loanRef} onClick={() => { setActive(1); }} className={`${style.work__card} ${active === 1 ? style.active : ""}`}>
         <span className={style.helper}></span>
-        <img src={LoanUp} alt="loan up" />
+        <img onLoad={e => e.target.classList.remove("image__loader")} className="image__loader" src={LoanUp} alt="loan up" />
         <div className={style.card__hover}>
           <p>UI/UX Design</p>
           <div>
@@ -93,7 +93,7 @@ const Portfolio = props => {
       </div>
       <div ref={inventopalRef} onClick={() => { setActive(2); }} className={`${style.work__card} ${active === 2 ? style.active : ""}`}>
         <span className={style.helper}></span>
-        <img src={Inventopal} alt="inventopal" />
+        <img onLoad={e => e.target.classList.remove("image__loader")} className="image__loader" src={Inventopal} alt="inventopal" />
         <div className={style.card__hover}>
           <p>UI/UX Design</p>
           <div>
@@ -105,7 +105,7 @@ const Portfolio = props => {
       </div>
       <div ref={hexcordRef} onClick={() => { setActive(3); }} className={`${style.work__card} ${active === 3 ? style.active : ""}`}>
         <span className={style.helper}></span>
-        <img src={Hexcord} alt="hexcord" />
+        <img onLoad={e => e.target.classList.remove("image__loader")} className="image__loader" src={Hexcord} alt="hexcord" />
         <div className={style.card__hover}>
           <p>UI Design</p>
           <div>
@@ -117,7 +117,7 @@ const Portfolio = props => {
       </div>
       <div ref={pizzaJungleRef} onClick={() => { setActive(4); }} className={`${style.work__card} ${active === 4 ? style.active : ""}`}>
         <span className={style.helper}></span>
-        <img src={PizzaJungle} alt="pizza jungle" />
+        <img onLoad={e => e.target.classList.remove("image__loader")} className="image__loader" src={PizzaJungle} alt="pizza jungle" />
         <div className={style.card__hover}>
           <p>UI Design</p>
           <div>
@@ -129,7 +129,7 @@ const Portfolio = props => {
       </div>
       <div ref={deliverieRef} onClick={() => { setActive(5); }} className={`${style.work__card} ${active === 5 ? style.active : ""}`}>
         <span className={style.helper}></span>
-        <img src={Deliverie} alt="deliverie app" />
+        <img onLoad={e => e.target.classList.remove("image__loader")} className="image__loader" src={Deliverie} alt="deliverie app" />
         <div className={style.card__hover}>
           <p>UI Design</p>
           <div>
@@ -141,7 +141,7 @@ const Portfolio = props => {
       </div>
       <div ref={spineroRef} onClick={() => { setActive(6); }} className={`${style.work__card} ${active === 6 ? style.active : ""}`}>
         <span className={style.helper}></span>
-        <img src={Spinero} alt="spinero" />
+        <img onLoad={e => e.target.classList.remove("image__loader")} className="image__loader" src={Spinero} alt="spinero" />
         <div className={style.card__hover}>
           <p>UI Design</p>
           <div>
@@ -153,7 +153,7 @@ const Portfolio = props => {
       </div>
       <div ref={sprintRef} onClick={() => { setActive(7); }} className={`${style.work__card} ${active === 7 ? style.active : ""}`}>
         <span className={style.helper}></span>
-        <img src={Sprinttrip} alt="sprint trip" />
+        <img onLoad={e => e.target.classList.remove("image__loader")} className="image__loader" src={Sprinttrip} alt="sprint trip" />
         <div className={style.card__hover}>
           <p>UI Design</p>
           <div>

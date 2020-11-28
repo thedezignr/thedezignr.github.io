@@ -19,9 +19,9 @@ const Deliverie = () => {
             </aside>
             <h3>The Design</h3>
             <p>Here are some screens from Deliverie...</p>
-            <img className={`${style.major__image} ${style.deliverie__user__flow}`} src={deliverie_user_flow} alt="Deliverie’s User Flow" />
+            <img onLoad={e => e.target.classList.remove("image__loader")} className={`${style.major__image} ${style.deliverie__user__flow} image__loader`} src={deliverie_user_flow} alt="Deliverie’s User Flow" />
             <h4 className={style.alt__text}>Deliverie’s User Flow</h4>
-            <img className={`${style.major__image} ${style.deliverie__ui}`} src={deliverie_ui} alt="Deliverie’s Wireframe" />
+            <img onLoad={e => e.target.classList.remove("image__loader")} className={`${style.major__image} ${style.deliverie__ui} image__loader`} src={deliverie_ui} alt="Deliverie’s Wireframe" />
             <h4 className={style.alt__text}>Deliverie’s Wireframe</h4>
           </main>
         </section>

@@ -185,6 +185,47 @@ button:active, button:focus {
   margin-bottom: 0px;
 }
 
+.image__loader {
+  animation: image_loading 5s linear infinite;
+  display: block;
+}
+
+@-webkit-keyframes image_loading {
+  0% {
+    background: var(--gray-3);
+  }
+  25% {
+    background: none;
+  }
+  50% {
+    background: var(--gray-3);
+  }
+  75% {
+    background: none;
+  }
+  100% {
+    background: var(--gray-3);
+  }
+}
+
+@keyframes image_loading {
+  0% {
+    background: var(--gray-3);
+  }
+  25% {
+    background: none;
+  }
+  50% {
+    background: var(--gray-3);
+  }
+  75% {
+    background: none;
+  }
+  100% {
+    background: var(--gray-3);
+  }
+}
+
 @media (min-width: 1800px) {
   html {
     font-size: 18px;

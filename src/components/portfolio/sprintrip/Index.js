@@ -20,7 +20,7 @@ const Sprintrip = () => {
             </aside>
             <h3>The Design</h3>
             <p>Here are some screens from Sprintrip...</p>
-            <img className={`${style.major__image} ${style.sprinttrip__screen}`} src={sprinttrip_screen} alt="Some screens from Sprintrip" />
+            <img onLoad={e => e.target.classList.remove("image__loader")} className={`${style.major__image} ${style.sprinttrip__screen} image__loader`} src={sprinttrip_screen} alt="Some screens from Sprintrip" />
             <h4 className={style.alt__text}>Some screens from Sprintrip</h4>
           </main>
         </section>

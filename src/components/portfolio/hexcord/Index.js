@@ -43,11 +43,11 @@ const Hexcord = () => {
                 <p>Minimal configurations</p>
               </li>
             </ul>
-            <img className={`${style.major__image} ${style.hexcord__user__flow}`} src={hexcord_user_flow} style={{ background: "#FDFFFC" }} alt="Hexcord’s User Flow" />
+            <img onLoad={e => e.target.classList.remove("image__loader")} className={`${style.major__image} ${style.hexcord__user__flow} image__loader`} src={hexcord_user_flow} style={{ background: "#FDFFFC" }} alt="Hexcord’s User Flow" />
             <h4 className={style.alt__text}>Hexcord’s User Flow</h4>
-            <img className={`${style.major__image} ${style.hexcord__screen}`} src={hexcord_screen_1} alt="Some screens from Hexcord Web Extension and Web App" />
+            <img onLoad={e => e.target.classList.remove("image__loader")} className={`${style.major__image} ${style.hexcord__screen} image__loader`} src={hexcord_screen_1} alt="Some screens from Hexcord Web Extension and Web App" />
             <h4 className={style.alt__text}>Some screens from Hexcord Web Extension and Web App</h4>
-            <img className={`${style.major__image} ${style.hexcord__screen}`} src={hexcord_screen_2} alt="Some screens from Hexcord’s Web App (Mobile)" />
+            <img onLoad={e => e.target.classList.remove("image__loader")} className={`${style.major__image} ${style.hexcord__screen} image__loader`} src={hexcord_screen_2} alt="Some screens from Hexcord’s Web App (Mobile)" />
             <h4 className={style.alt__text}>Some screens from Hexcord’s Web App (Mobile)</h4>
           </main>
         </section>

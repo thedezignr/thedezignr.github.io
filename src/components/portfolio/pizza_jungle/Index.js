@@ -20,11 +20,11 @@ const PizzaJungle = () => {
             </aside>
             <h3>The Design</h3>
             <p>Here are some screens from Pizza Jungle...</p>
-            <img className={`${style.major__image} ${style.pizza__jungle__user__flow}`} src={pizza_jungle_user_flow} style={{ background: "#FDFFFC" }} alt="Pizza Jungle’s User Flow" />
+            <img onLoad={e => e.target.classList.remove("image__loader")} className={`${style.major__image} ${style.pizza__jungle__user__flow} image__loader`} src={pizza_jungle_user_flow} style={{ background: "#FDFFFC" }} alt="Pizza Jungle’s User Flow" />
             <h4 className={style.alt__text}>Pizza Jungle’s User Flow</h4>
-            <img className={`${style.major__image} ${style.pizza__jungle__wire__frame}`} src={pizza_jungle_wire_frame} alt="Pizza Jungle’s Wireframe" />
+            <img onLoad={e => e.target.classList.remove("image__loader")} className={`${style.major__image} ${style.pizza__jungle__wire__frame} image__loader`} src={pizza_jungle_wire_frame} alt="Pizza Jungle’s Wireframe" />
             <h4 className={style.alt__text}>Pizza Jungle’s Wireframe</h4>
-            <img className={`${style.major__image} ${style.pizza__jungle__ui}`} src={pizza_jungle_ui} alt="Pizza Jungle’s UI" />
+            <img onLoad={e => e.target.classList.remove("image__loader")} className={`${style.major__image} ${style.pizza__jungle__ui} image__loader`} src={pizza_jungle_ui} alt="Pizza Jungle’s UI" />
             <h4 className={style.alt__text}>Pizza Jungle’s UI</h4>
           </main>
         </section>

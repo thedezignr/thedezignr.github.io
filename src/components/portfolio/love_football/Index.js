@@ -34,7 +34,7 @@ const LoveFootball = () => {
           findings.</p>
             <p>On coming on board, I first went through their quantitative data and analyzed it. Because of the newness of the Fantasy
           football idea to the Nigerian market, it was important to first validate the idea with the data available.</p>
-            <img className={style.major__image} src={love_football_survey_data} alt="A screenshot of the one of the excel sheets that contain survey data." />
+            <img onLoad={e => e.target.classList.remove("image__loader")} className={`${style.major__image} image__loader`} src={love_football_survey_data} alt="A screenshot of the one of the excel sheets that contain survey data." />
             <h4 className={style.alt__text}>A screenshot of the one of the excel sheets that contain survey data.</h4>
             <p>Key findings</p>
             <ul className={style.default__list}>
@@ -59,11 +59,11 @@ const LoveFootball = () => {
             </ul>
             <div className={style.double__image}>
               <div>
-                <img className={`${style.major__image} ${style.love__football__empathy__map}`} src={love_football_empathy_map} alt="A screenshot of the empathy map that was used to collate data after qual research." />
+                <img onLoad={e => e.target.classList.remove("image__loader")} className={`${style.major__image} ${style.love__football__empathy__map} image__loader`} src={love_football_empathy_map} alt="A screenshot of the empathy map that was used to collate data after qual research." />
                 <h4 className={style.alt__text}>A screenshot of the empathy map that was used to collate data after qual research.</h4>
               </div>
               <div>
-                <img className={`${style.minor__image} ${style.love__football__brainstorming}`} src={love_football_brainstorming} alt="A screenshot of the Miro board after brainstorming." />
+                <img onLoad={e => e.target.classList.remove("image__loader")} className={`${style.minor__image} ${style.love__football__brainstorming} image__loader`} src={love_football_brainstorming} alt="A screenshot of the Miro board after brainstorming." />
                 <h4 className={style.alt__text}>A screenshot of the Miro board after brainstorming.</h4>
               </div>
             </div>
@@ -105,10 +105,10 @@ const LoveFootball = () => {
             </ul>
             <div className={style.double__mobile__image}>
               <div>
-                <img className={style.mobile__image} src={love_football_wireframe} alt="The screen shows a  wireframe congratulating a user who has just won a reward." />
+                <img onLoad={e => e.target.classList.remove("image__loader")} className={`${style.mobile__image} image__loader`} src={love_football_wireframe} alt="The screen shows a  wireframe congratulating a user who has just won a reward." />
               </div>
               <div>
-                <img className={style.mobile__image} src={love_football_ui_design} alt="The screen shows the final UI design congratulating a user who has just won a reward." />
+                <img onLoad={e => e.target.classList.remove("image__loader")} className={`${style.mobile__image} image__loader`} src={love_football_ui_design} alt="The screen shows the final UI design congratulating a user who has just won a reward." />
               </div>
             </div>
             <h4 className={style.alt__text} style={{ marginTop: "0" }}>The screen above shows a  wireframe and the final UI design
