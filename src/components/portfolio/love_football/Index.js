@@ -59,11 +59,11 @@ const LoveFootball = () => {
             </ul>
             <div className={style.double__image}>
               <div>
-                <img className={style.major__image} src={love_football_empathy_map} alt="A screenshot of the empathy map that was used to collate data after qual research." />
+                <img className={`${style.major__image} ${style.love__football__empathy__map}`} src={love_football_empathy_map} alt="A screenshot of the empathy map that was used to collate data after qual research." />
                 <h4 className={style.alt__text}>A screenshot of the empathy map that was used to collate data after qual research.</h4>
               </div>
               <div>
-                <img className={style.minor__image} src={love_football_brainstorming} alt="A screenshot of the Miro board after brainstorming." />
+                <img className={`${style.minor__image} ${style.love__football__brainstorming}`} src={love_football_brainstorming} alt="A screenshot of the Miro board after brainstorming." />
                 <h4 className={style.alt__text}>A screenshot of the Miro board after brainstorming.</h4>
               </div>
             </div>

@@ -89,6 +89,15 @@
   display: inline-block;
 }
 
+@media screen and (max-width: 1260px) {
+  .double__image {
+    display: block;
+  }
+  .double__image>div:nth-child(2) {
+    margin-left: 0px;
+  }
+}
+
 @media screen and (max-width: 800px) {
   .main__container {
     margin: 0 5.333333333333334%;
@@ -121,10 +130,63 @@
     object-fit: cover;
     margin-top: 50px;
   }
-  .double__image {
-    display: block;
+}
+
+@media screen and (max-width: 600px) {
+  .love__football__empathy__map {
+    height: 232px;
   }
-  .double__image>div:nth-child(2) {
-    margin-left: 0px;
+  .love__football__brainstorming {
+    height: 172px;
+  }
+  .double__mobile__image img {
+    width: 155px;
+    height: 344px;
+    object-fit: cover;
+  }
+  .loan__up__survey__data {
+    height: 158px;
+  }
+  .loan__up__user__persona {
+    height: 173px;
+  }
+  .loan__up__wireflow {
+    height: 330px;
+  }
+  .loan__up__wire__frame {
+    height: 199px;
+  }
+  .loan__up__screens {
+    height: 251px;
+  }
+  .inventopal__screen {
+    height: 250px;
+  }
+  .hexcord__user__flow {
+    height: 297px;
+  }
+  .hexcord__screen {
+    height: 252px;
+  }
+  .pizza__jungle__user__flow {
+    height: 309px;
+  }
+  .pizza__jungle__wire__frame {
+    height: 202px;
+  }
+  .pizza__jungle__ui {
+    height: 424px;
+  }
+  .deliverie__user__flow {
+    height: 200px;
+  }
+  .deliverie__ui {
+    height: 252px;
+  }
+  .spinero__user__flow {
+    height: 253px;
+  }
+  .spinero__screen, .sprinttrip__screen {
+    height: 251px;
   }
 }

@@ -55,7 +55,7 @@ const LoanUp = () => {
                 <p>Find out if their existing users have any experience with digital methods of banking.</p>
               </li>
             </ul>
-            <img className={style.major__image} src={loan_up_survey_data} alt="A screenshot of the responses of the users." />
+            <img className={`${style.major__image} ${style.loan__up__survey__data}`} src={loan_up_survey_data} alt="A screenshot of the responses of the users." />
             <h4 className={style.alt__text}>A screenshot of the responses of the users.</h4>
             <p>Key findings</p>
             <ul className={style.default__list}>
@@ -70,7 +70,7 @@ const LoanUp = () => {
                   different personal reason.</p>
               </li>
             </ul>
-            <img className={style.major__image__1} src={loan_up_user_persona} alt="This is a goal-oriented user persona used for this project." />
+            <img className={`${style.major__image__1} ${style.loan__up__user__persona}`} src={loan_up_user_persona} alt="This is a goal-oriented user persona used for this project." />
             <h4 className={style.alt__text}>This is a goal-oriented user persona used for this project.</h4>
             <h3>The Solution</h3>
             <p className="regular__bold__text">LoanUp App</p>
@@ -106,18 +106,18 @@ const LoanUp = () => {
             <p>The focus of this case study is not the admin side of the product, details about it will not be shared</p>
             <div className={style.double__image}>
               <div>
-                <img className={style.major__image} src={loan_up_wire_flow} alt="LoanUp wireflow" />
+                <img className={`${style.major__image} ${style.loan__up__wireflow}`} src={loan_up_wire_flow} alt="LoanUp wireflow" />
                 <h4 className={style.alt__text}>LoanUp wireflow</h4>
               </div>
               <div>
-                <img className={style.minor__image} src={loan_up_wire_frame} alt="LoanUp Wireframes" />
+                <img className={`${style.minor__image} ${style.loan__up__wire__frame}`} src={loan_up_wire_frame} alt="LoanUp Wireframes" />
                 <h4 className={style.alt__text}>LoanUp Wireframes</h4>
               </div>
             </div>
             <p>To start of the design of the app, I started with a wireflow. I picked a wireflow over a userflow because a
             wireflow is much more detailed and accounts for every element on the design interface. A wireflow can also be easily
               communicated to developers, PMs and stakeholders.</p>
-            <img className={style.major__image} src={loan_up_screens} alt="LoanUp Screens" />
+            <img className={`${style.major__image} ${style.loan__up__screens}`} src={loan_up_screens} alt="LoanUp Screens" />
             <h4 className={style.alt__text}>LoanUp Screens</h4>
           </main>
         </section>

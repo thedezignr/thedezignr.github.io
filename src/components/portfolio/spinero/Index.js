@@ -20,11 +20,11 @@ const Spinero = () => {
             </aside>
             <h3>The Design</h3>
             <p>Here are some screens from Spinero...</p>
-            <img className={style.major__image} src={spinero_user_flow} style={{ background: "#FDFFFC" }} alt="Spinero’s User Flow" />
+            <img className={`${style.major__image} ${style.spinero__user__flow}`} src={spinero_user_flow} style={{ background: "#FDFFFC" }} alt="Spinero’s User Flow" />
             <h4 className={style.alt__text}>Spinero’s User Flow</h4>
-            <img className={style.major__image} src={spinero_screen_1} alt="Some screens from Spinero Web" />
+            <img className={`${style.major__image} ${style.spinero__screen}`} src={spinero_screen_1} alt="Some screens from Spinero Web" />
             <h4 className={style.alt__text}>Some screens from Spinero Web</h4>
-            <img className={style.major__image} src={spinero_screen_2} alt="Some screens from Spinero Mobile" />
+            <img className={`${style.major__image} ${style.spinero__screen}`} src={spinero_screen_2} alt="Some screens from Spinero Mobile" />
             <h4 className={style.alt__text}>Some screens from Spinero Mobile</h4>
           </main>
         </section>

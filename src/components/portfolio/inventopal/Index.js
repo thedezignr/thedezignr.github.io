@@ -61,9 +61,9 @@ const Inventopal = () => {
                 <p>Maintain a database of clients who are on routine drugs.</p>
               </li>
             </ul>
-            <img className={style.major__image} src={inventopal_screen_1} alt="Some screens from Inventopal Web" />
+            <img className={`${style.major__image} ${style.inventopal__screen}`} src={inventopal_screen_1} alt="Some screens from Inventopal Web" />
             <h4 className={style.alt__text}>Some screens from Inventopal Web</h4>
-            <img className={style.major__image} src={inventopal_screen_2} alt="Some screens from Inventopal Mobile" />
+            <img className={`${style.major__image} ${style.inventopal__screen}`} src={inventopal_screen_2} alt="Some screens from Inventopal Mobile" />
             <h4 className={style.alt__text}>Some screens from Inventopal Mobile</h4>
           </main>
         </section>
