@@ -1,6 +1,9 @@
 .footer {
   height: 160px;
-  width: 100%;
+  width: 77.08%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
 }
 
 .positioned__footer {
@@ -10,9 +13,21 @@
   border: none;
 }
 
+.credits {
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 12;
+  color: var(--gray-3);
+  margin: 0;
+  padding: 0;
+}
+
+.credits>a:hover {
+  color: var(--white);
+}
+
 .socials {
   width: 13.1875rem;
-  margin: auto;
   display: flex;
   justify-content: space-between;
 }
@@ -27,12 +42,20 @@ footer:not(.positioned__footer) .socials>a {
 
 @media screen and (max-width: 800px) {
   .footer {
-    height: 80px;
+    display: block;
+    width: 100%;
+    text-align: center;
   }
   .positioned__footer>.socials {
     margin-top: 40px;
   }
   footer:not(.positioned__footer) .socials>a {
     line-height: 6;
+  }
+  .socials {
+    margin: auto;
+  }
+  .credits {
+    line-height: 1.625rem;
   }
 }
