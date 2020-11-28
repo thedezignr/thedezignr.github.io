@@ -45,17 +45,17 @@ function App() {
             <Footer />
           </Route>
           <Route path="/genesys/facilitator">
-            <Header back />
+            <Header back="/about" />
             <GenesysFacilitator />
             <Footer forHighlight />
           </Route>
           <Route path="/genesys/designer">
-            <Header back />
+            <Header back="/about" />
             <GenesysDesigner />
             <Footer />
           </Route>
           <Route path="/tenece">
-            <Header back />
+            <Header back="/about" />
             <Tenece />
             <Footer />
           </Route>
@@ -65,42 +65,42 @@ function App() {
             <Footer />
           </Route>
           <Route path="/p/love_football">
-            <Header back />
+            <Header back="/portfolio" />
             <LoveFootball />
             <Footer />
           </Route>
           <Route path="/p/loan_up">
-            <Header back />
+            <Header back="/portfolio" />
             <LoanUp />
             <Footer />
           </Route>
           <Route path="/p/inventopal">
-            <Header back />
+            <Header back="/portfolio" />
             <Inventopal />
             <Footer />
           </Route>
           <Route path="/p/hexcord">
-            <Header back />
+            <Header back="/portfolio" />
             <Hexcord />
             <Footer />
           </Route>
           <Route path="/p/pizza_jungle">
-            <Header back />
+            <Header back="/portfolio" />
             <PizzaJungle />
             <Footer />
           </Route>
           <Route path="/p/deliverie">
-            <Header back />
+            <Header back="/portfolio" />
             <Deliverie />
             <Footer />
           </Route>
           <Route path="/p/spinero">
-            <Header back />
+            <Header back="/portfolio" />
             <Spinero />
             <Footer />
           </Route>
           <Route path="/p/sprintrip">
-            <Header back />
+            <Header back="/portfolio" />
             <Sprintrip />
             <Footer />
           </Route>
