@@ -67,7 +67,7 @@ button:active, button:focus {
 .linkedin {
   mask: url(./assets/linkedin.svg);
   background: var(--gray-3);
-  width: 24px;
+  width: 22px;
 }
 
 .email {

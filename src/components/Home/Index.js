@@ -28,22 +28,22 @@ const getSocials = () => (
     <div className={style.socials}>
       <ul className="boring__list">
         <li>
-          <a href="https://dribbble.com/theDezignr " style={{ marginBottom: "40px", display: "block" }} className="no__background no__border boring__link">
+          <a href="https://dribbble.com/theDezignr " style={{ marginBottom: "40px", display: "block" }} className="no__background no__border boring__link" target="_blank" rel="noreferrer">
             <span className="icon dribble"></span>
           </a>
         </li>
         <li>
-          <a href="https://twitter.com/thedezignr_" style={{ marginBottom: "40px", display: "block" }} className="no__background no__border">
+          <a href="https://twitter.com/thedezignr_" style={{ marginBottom: "40px", display: "block" }} className="no__background no__border" target="_blank" rel="noreferrer">
             <span className="icon twitter"></span>
           </a>
         </li>
         <li>
-          <a href="https://www.linkedin.com/in/angel-opoku" style={{ marginBottom: "40px", display: "block" }} className="no__background no__border">
+          <a href="https://www.linkedin.com/in/angel-opoku" style={{ marginBottom: "40px", display: "block" }} className="no__background no__border" target="_blank" rel="noreferrer">
             <span className="icon linkedin"></span>
           </a>
         </li>
         <li>
-          <a href="mailto:angelopoku2@gmail.com" style={{ marginBottom: "40px", display: "block" }} className="no__background no__border">
+          <a href="mailto:angelopoku2@gmail.com" style={{ marginBottom: "40px", display: "block" }} className="no__background no__border" target="_blank" rel="noreferrer">
             <span className="icon email"></span>
           </a>
         </li>

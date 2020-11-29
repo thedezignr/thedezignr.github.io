@@ -5,7 +5,7 @@
 }
 
 .main__container>section:first-of-type {
-  width: 84%;
+  width: 80%;
   display: inline-block;
 }
 
@@ -129,6 +129,9 @@
     width: 100%;
     object-fit: cover;
     margin-top: 50px;
+  }
+  .alt__text {
+    font-size: 0.875rem;
   }
 }
 

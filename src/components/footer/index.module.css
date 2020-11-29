@@ -67,6 +67,7 @@ footer:not(.positioned__footer) .socials>a {
     margin: auto;
   }
   .credits {
-    line-height: 1.625rem;
+    line-height: 3.625rem;
+    font-size: 0.875rem;
   }
 }

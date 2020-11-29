@@ -65,42 +65,42 @@ function App() {
             <Footer small />
           </Route>
           <Route path="/p/love_football">
-            <Header back="/portfolio" />
+            <Header back="/portfolio" hideWork />
             <LoveFootball />
             <Footer />
           </Route>
           <Route path="/p/loan_up">
-            <Header back="/portfolio" />
+            <Header back="/portfolio" hideWork />
             <LoanUp />
             <Footer />
           </Route>
           <Route path="/p/inventopal">
-            <Header back="/portfolio" />
+            <Header back="/portfolio" hideWork />
             <Inventopal />
             <Footer />
           </Route>
           <Route path="/p/hexcord">
-            <Header back="/portfolio" />
+            <Header back="/portfolio" hideWork />
             <Hexcord />
             <Footer />
           </Route>
           <Route path="/p/pizza_jungle">
-            <Header back="/portfolio" />
+            <Header back="/portfolio" hideWork />
             <PizzaJungle />
             <Footer />
           </Route>
           <Route path="/p/deliverie">
-            <Header back="/portfolio" />
+            <Header back="/portfolio" hideWork />
             <Deliverie />
             <Footer />
           </Route>
           <Route path="/p/spinero">
-            <Header back="/portfolio" />
+            <Header back="/portfolio" hideWork />
             <Spinero />
             <Footer />
           </Route>
           <Route path="/p/sprintrip">
-            <Header back="/portfolio" />
+            <Header back="/portfolio" hideWork />
             <Sprintrip />
             <Footer />
           </Route>
