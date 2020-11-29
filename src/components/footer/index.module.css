@@ -15,6 +15,10 @@
   display: block;
 }
 
+.small__footer {
+  max-width: 1110px;
+}
+
 .credits {
   font-weight: 600;
   font-size: 1rem;

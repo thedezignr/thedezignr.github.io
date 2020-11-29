@@ -62,7 +62,7 @@ function App() {
           <Route path="/portfolio">
             <Header active="portfolio" />
             <Portfolio />
-            <Footer />
+            <Footer small />
           </Route>
           <Route path="/p/love_football">
             <Header back="/portfolio" />

@@ -2,7 +2,7 @@ import style from "./index.module.css";
 
 const Footer = props => {
   return (
-    <footer className={`${style.footer} ${props.forHighlight ? style.positioned__footer : ""}`}>
+    <footer className={`${style.footer} ${props.forHighlight ? style.positioned__footer : ""} ${props.small ? style.small__footer : ""}`}>
       <div>
         <p className={style.credits}>Designed by Angel, built by <a href="https://www.hyperdebugger.dev" className="no__background no__border boring__link">@hyper_debugger</a></p>
       </div>
