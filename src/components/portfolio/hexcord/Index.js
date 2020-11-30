@@ -1,8 +1,8 @@
 import style from "../projects.module.css";
 import { NavLink } from "react-router-dom";
-import hexcord_user_flow from "../../../assets/hexcord_user_flow.svg";
-import hexcord_screen_1 from "../../../assets/hexcord_screen_1.svg";
-import hexcord_screen_2 from "../../../assets/hexcord_screen_2.svg";
+import hexcord_user_flow from "../../../assets/hexcord_user_flow.png";
+import hexcord_screen_1 from "../../../assets/hexcord_screen_1.png";
+import hexcord_screen_2 from "../../../assets/hexcord_screen_2.png";
 
 const Hexcord = () => {
   return (

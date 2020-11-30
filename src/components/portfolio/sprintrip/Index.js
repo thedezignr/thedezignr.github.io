@@ -1,6 +1,6 @@
 import style from "../projects.module.css";
 import { NavLink } from "react-router-dom";
-import sprinttrip_screen from "../../../assets/sprinttrip_screen.svg";
+import sprinttrip_screen from "../../../assets/sprinttrip_screen.png";
 
 const Sprintrip = () => {
   return (

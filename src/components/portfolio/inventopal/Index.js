@@ -1,7 +1,7 @@
 import style from "../projects.module.css";
 import { NavLink } from "react-router-dom";
-import inventopal_screen_1 from "../../../assets/inventopal_screen_1.svg";
-import inventopal_screen_2 from "../../../assets/inventopal_screen_2.svg";
+import inventopal_screen_1 from "../../../assets/inventopal_screen_1.png";
+import inventopal_screen_2 from "../../../assets/inventopal_screen_2.png";
 
 const Inventopal = () => {
   return (

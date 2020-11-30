@@ -1,8 +1,8 @@
 import style from "../projects.module.css";
 import { NavLink } from "react-router-dom";
-import spinero_user_flow from "../../../assets/spinero_user_flow.svg";
-import spinero_screen_1 from "../../../assets/spinero_screen_1.svg";
-import spinero_screen_2 from "../../../assets/spinero_screen_2.svg";
+import spinero_user_flow from "../../../assets/spinero_user_flow.png";
+import spinero_screen_1 from "../../../assets/spinero_screen_1.png";
+import spinero_screen_2 from "../../../assets/spinero_screen_2.png";
 
 const Spinero = () => {
   return (

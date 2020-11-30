@@ -1,12 +1,12 @@
 import style from './index.module.css';
-import LoveFootball from "../../assets/love_football.svg";
-import LoanUp from "../../assets/loan_up.svg";
-import Inventopal from "../../assets/inventopal.svg";
-import Hexcord from "../../assets/hexcord.svg";
-import Spinero from "../../assets/spinero.svg";
-import Sprinttrip from "../../assets/sprinttrip.svg";
-import PizzaJungle from "../../assets/pizza_jungle.svg";
-import Deliverie from "../../assets/deliverie.svg";
+import LoveFootball from "../../assets/love_football.png";
+import LoanUp from "../../assets/loan_up.png";
+import Inventopal from "../../assets/inventopal.png";
+import Hexcord from "../../assets/hexcord.png";
+import Spinero from "../../assets/spinero.png";
+import Sprinttrip from "../../assets/sprinttrip.png";
+import PizzaJungle from "../../assets/pizza_jungle.png";
+import Deliverie from "../../assets/deliverie.png";
 import { useState, createRef, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
 

@@ -1,7 +1,7 @@
 import style from "../projects.module.css";
 import { NavLink } from "react-router-dom";
-import deliverie_user_flow from "../../../assets/deliverie_user_flow.svg";
-import deliverie_ui from "../../../assets/deliverie_ui.svg";
+import deliverie_user_flow from "../../../assets/deliverie_user_flow.png";
+import deliverie_ui from "../../../assets/deliverie_ui.png";
 
 const Deliverie = () => {
   return (

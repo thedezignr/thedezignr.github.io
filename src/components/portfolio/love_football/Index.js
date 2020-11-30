@@ -1,9 +1,9 @@
 import style from "../projects.module.css";
-import love_football_survey_data from "../../../assets/love_football_survey_data.svg";
-import love_football_empathy_map from "../../../assets/love_football_empathy_map.svg";
-import love_football_brainstorming from "../../../assets/love_football_brainstorming.svg";
-import love_football_wireframe from "../../../assets/love_football_wireframe.svg";
-import love_football_ui_design from "../../../assets/love_football_ui_design.svg";
+import love_football_survey_data from "../../../assets/love_football_survey_data.png";
+import love_football_empathy_map from "../../../assets/love_football_empathy_map.png";
+import love_football_brainstorming from "../../../assets/love_football_brainstorming.png";
+import love_football_wireframe from "../../../assets/love_football_wireframe.png";
+import love_football_ui_design from "../../../assets/love_football_ui_design.png";
 import { NavLink } from "react-router-dom";
 
 const LoveFootball = () => {

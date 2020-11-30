@@ -1,8 +1,8 @@
 import style from "../projects.module.css";
 import { NavLink } from "react-router-dom";
-import pizza_jungle_user_flow from "../../../assets/pizza_jungle_user_flow.svg";
-import pizza_jungle_wire_frame from "../../../assets/pizza_jungle_wire_frame.svg";
-import pizza_jungle_ui from "../../../assets/pizza_jungle_ui.svg";
+import pizza_jungle_user_flow from "../../../assets/pizza_jungle_user_flow.png";
+import pizza_jungle_wire_frame from "../../../assets/pizza_jungle_wire_frame.png";
+import pizza_jungle_ui from "../../../assets/pizza_jungle_ui.png";
 
 const PizzaJungle = () => {
   return (

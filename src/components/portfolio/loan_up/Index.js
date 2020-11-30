@@ -1,10 +1,10 @@
 import style from "../projects.module.css";
 import { NavLink } from "react-router-dom";
-import loan_up_survey_data from "../../../assets/loan_up_survey_data.svg";
-import loan_up_user_persona from "../../../assets/loan_up_user_persona.svg";
-import loan_up_wire_flow from "../../../assets/loan_up_wire_flow.svg";
-import loan_up_wire_frame from "../../../assets/loan_up_wire_frame.svg";
-import loan_up_screens from "../../../assets/loan_up_screens.svg";
+import loan_up_survey_data from "../../../assets/loan_up_survey_data.png";
+import loan_up_user_persona from "../../../assets/loan_up_user_persona.png";
+import loan_up_wire_flow from "../../../assets/loan_up_wire_flow.png";
+import loan_up_wire_frame from "../../../assets/loan_up_wire_frame.png";
+import loan_up_screens from "../../../assets/loan_up_screens.png";
 
 const LoanUp = () => {
   return (
