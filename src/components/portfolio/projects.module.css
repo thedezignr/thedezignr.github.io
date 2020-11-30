@@ -42,6 +42,10 @@
   line-height: 1.625rem;
 }
 
+.footer p a:hover {
+  color: var(--white);
+}
+
 .major__image {
   width: 635px;
   height: 424px;

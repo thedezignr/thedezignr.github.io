@@ -118,7 +118,16 @@ button:active, button:focus {
   height: 8px;
   width: 19px;
   margin-left: 10px;
-  background: url(./assets/right_arrow.svg);
+  mask: url(./assets/right_arrow.svg);
+  background: var(--white);
+}
+
+.gray__after__arrow__link::after {
+  background: var(--gray-4);
+}
+
+.gray__after__arrow__link:hover::after {
+  background: var(--white);
 }
 
 .arrow__left__link {
@@ -133,7 +142,16 @@ button:active, button:focus {
   height: 8px;
   width: 19px;
   margin-right: 10px;
-  background: url(./assets/left_arrow.svg);
+  mask: url(./assets/left_arrow.svg);
+  background: var(--white);
+}
+
+.gray__before__arrow__link::before {
+  background: var(--gray-4);
+}
+
+.gray__before__arrow__link:hover::before {
+  background: var(--white);
 }
 
 .pull__left {

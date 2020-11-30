@@ -22,7 +22,7 @@ const Tenece = props => {
           project managers, customer service representatives, business development people and stakeholders.</p>
           <ul className={style.default__list}>
             <li>
-              <p>Dynamo: I designed a developer interface that allowed developers build a framework that is used to quickly
+              <p>Dynamo: I designed a developer interface that allowed developers to build a framework that is used to quickly
               create various management information systems without having to worry about architecture and system interfaces.
               I also created and maintained the design system for Dynamo.</p>
               <p>This system significantly reduced the time it took to build other company products such as the multi-tenant
@@ -36,7 +36,7 @@ const Tenece = props => {
               rate for the product, increased significantly.</p>
             </li>
             <li>
-              <p>School Manager: I conducted the first ever usability testing, A/B testing and heuristics evaluation on the
+              <p>School Manager: I conducted the first ever usability testing, A/B testing and heuristic evaluation on the
               School Manager.</p>
               <p>The report led to a design overhaul that further reduced the learning curve and also increased adoption rates.</p>
             </li>

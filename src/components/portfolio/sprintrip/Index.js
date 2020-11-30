@@ -36,7 +36,7 @@ const Sprintrip = () => {
         </aside>
         <footer className={style.footer}>
           <p>
-            <NavLink to="/p/spinero" className="boring__link arrow__left__link pull__left">Previous Post</NavLink>
+            <NavLink to="/p/spinero" className="boring__link arrow__left__link gray__before__arrow__link pull__left">Previous Post</NavLink>
           </p>
         </footer>
       </section>

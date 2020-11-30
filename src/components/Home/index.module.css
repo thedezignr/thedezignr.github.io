@@ -102,7 +102,12 @@ section.main__container>section:last-child>main {
   height: 8px;
   width: 19px;
   margin-left: 10px;
-  background: url(../../assets/right_arrow_2.svg);
+  mask: url(../../assets/right_arrow_2.svg);
+  background: var(--blue);
+}
+
+.details__link:hover::after {
+  background: var(--blue-hover);
 }
 
 .two__columns_list {
@@ -120,6 +125,11 @@ section.main__container>section:last-child>main {
 
 .socials {
   text-align: right;
+}
+
+.socials>ul {
+  display: inline-block;
+  text-align: center;
 }
 
 .clients {

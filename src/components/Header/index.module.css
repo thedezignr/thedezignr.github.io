@@ -22,7 +22,8 @@ aside:not(.active) .prev::before {
   height: 8px;
   width: 19px;
   margin-right: 10px;
-  background: url(../../assets/left_arrow.svg);
+  mask: url(../../assets/left_arrow.svg);
+  background: var(--white);
 }
 
 .prev:hover, .next:hover {
@@ -47,7 +48,12 @@ aside:not(.active) .next::after {
   height: 8px;
   width: 19px;
   margin-left: 10px;
-  background: url(../../assets/right_arrow.svg);
+  mask: url(../../assets/right_arrow.svg);
+  background: var(--white);
+}
+
+aside:not(.active) .prev:hover::before, aside:not(.active) .next:hover::after {
+  background: var(--hover);
 }
 
 @media screen and (max-width: 800px) {

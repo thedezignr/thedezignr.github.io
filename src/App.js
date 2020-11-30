@@ -47,7 +47,7 @@ function App() {
           <Route path="/genesys/facilitator">
             <Header back="/about" />
             <GenesysFacilitator />
-            <Footer forHighlight />
+            <Footer />
           </Route>
           <Route path="/genesys/designer">
             <Header back="/about" />

@@ -38,8 +38,8 @@ const Deliverie = () => {
         </aside>
         <footer className={style.footer}>
           <p>
-            <NavLink to="/p/pizza_jungle" className="boring__link arrow__left__link pull__left">Previous Post</NavLink>
-            <NavLink to="/p/spinero" className="boring__link arrow__link pull__right">Next Post</NavLink>
+            <NavLink to="/p/pizza_jungle" className="boring__link arrow__left__link gray__before__arrow__link pull__left">Previous Post</NavLink>
+            <NavLink to="/p/spinero" className="boring__link arrow__link gray__after__arrow__link pull__right">Next Post</NavLink>
           </p>
         </footer>
       </section >

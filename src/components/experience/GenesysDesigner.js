@@ -18,7 +18,7 @@ const GenesysDesigner = props => {
             </div>
           </div>
           <p>While at Genesys I worked on a number of client-facing products that cut across both B2B and B2C categories.
-          I also worked on multidisciplinary teams to achieve products success - I worked with developers, designers,
+          I also worked in multidisciplinary teams to achieve products success - I worked with developers, designers,
           project managers, testers and stakeholders constantly.</p>
           <ul className={style.default__list}>
             <li>
@@ -30,7 +30,7 @@ const GenesysDesigner = props => {
             </li>
             <li>
               <p>Anambra Payroll System: I handled UX design, UI design and design system on a payroll management system for a
-              neighboring state’s government. </p>
+              neighboring state government. </p>
               <p>The system automated payrolling in the state and reduced fraud within the state ministries, saving the
               government, millions.</p>
             </li>

@@ -14,7 +14,7 @@ const LoveFootball = () => {
           <main className="main__body">
             <h3>LoveFootball App - Gamification</h3>
             <p>Lovefootball is a game for fantasy football lovers and football lovers where gamers compete for more points on an
-          upcoming match. Its the only platform of its kind in Nigeria.</p>
+          upcoming match. It's the only platform of its kind in Nigeria.</p>
             <aside className={style.mobile__roles_section}>
               <h3>My Role</h3>
               <ul className="boring__list">
@@ -24,8 +24,8 @@ const LoveFootball = () => {
             </aside>
             <h3>The Challenge</h3>
             <p>Lovefootball is new to its Nigerian target market. Prior to Lovefootball, there was no Fantasy football gaming platform.</p>
-            <p>I was tasked with a user-friendly strategy to make the app a habit forming product. I had the responsibilty of
-          analysizing existing quantitative research data to validate the product’s idea.</p>
+            <p>I was tasked with a user-friendly strategy to make the app a habit forming product. I had the responsibility of
+          analyzing existing quantitative research data to validate the product’s idea.</p>
             <p>Prior to coming to me, they had already designed and built out the app. I was constrained to the existing design system,
           and development boundaries.</p>
             <h3>The Process</h3>
@@ -115,7 +115,7 @@ const LoveFootball = () => {
         congratulating a user who has just won a reward.</h4>
             <p>Our first strategy at gamification was the incentivization of the already existing leaderboards system, allowing users to
           win rewards every week and every month.</p>
-            <p>By the next upgrade we intend to add trivia questions about the football to the app. Users will earn rewards as they
+            <p>By the next upgrade, we intend to add trivia questions about the football to the app. Users will earn rewards as they
           answer questions.</p>
             <h3>Lessons</h3>
             <p>With every project comes lessons and I have a few lessons from this project;</p>
@@ -152,7 +152,7 @@ const LoveFootball = () => {
         </aside>
         <footer className={style.footer}>
           <p>
-            <NavLink to="/p/loan_up" className="boring__link arrow__link pull__right">Next Post</NavLink>
+            <NavLink to="/p/loan_up" className="boring__link arrow__link gray__after__arrow__link pull__right">Next Post</NavLink>
           </p>
         </footer>
       </section >
