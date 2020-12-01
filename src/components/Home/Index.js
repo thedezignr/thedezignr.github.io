@@ -10,15 +10,15 @@ const getAbout = () => (
         I started out with graphics designing and branding while in college. Over the next 4 years,
         I spent my time studying and designing.  Upon leaving college, I heard about Product Design as a career path and
         I entered an internship program where I learned and practiced UX/UI Design.
-            </p>
+      </p>
       <p>
         Since I left the internship program, I have worked with 3 companies as UI/UX Designer, worked with several clients and
         designed products across a variety of industries. I have experience with B2B, B2C and SaaS products.
-            </p>
+      </p>
       <p>
         I am interested in new opportunities to design products that REALLY solve a problem.
-            </p>
-      <a href="https://bit.ly/angelopokuCV" className={["no__border", "boring__link", style.download_button].join(" ")}>View my resume</a>
+      </p>
+      <a href="https://bit.ly/angelopokuCV" className={["no__border", "boring__link", style.download_button].join(" ")} target="_blank" rel="noreferrer">View my resume</a>
     </main>
   </section>
 );
