@@ -24,6 +24,7 @@
 
 .genesys__facilitator {
   height: 56vh;
+  border-bottom: none;
 }
 
 @media screen and (max-height: 600px) {

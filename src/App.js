@@ -2,14 +2,6 @@ import './App.css';
 import { Switch, Route, BrowserRouter as Router } from 'react-router-dom';
 import Splash from './components/splash/Splash';
 import { useState, useEffect, Suspense, lazy as lazyLoad } from 'react';
-import LoveFootball from './components/portfolio/love_football/Index';
-import LoanUp from './components/portfolio/loan_up/Index';
-import Inventopal from './components/portfolio/inventopal/Index';
-import Hexcord from './components/portfolio/hexcord/Index';
-import PizzaJungle from './components/portfolio/pizza_jungle/Index';
-import Deliverie from './components/portfolio/deliverie/Index';
-import Spinero from './components/portfolio/spinero/Index';
-import Sprintrip from './components/portfolio/sprintrip/Index';
 
 const Header = lazyLoad(() => import('./components/Header/Index'));
 const Highlight = lazyLoad(() => import('./components/Highlight/Index'));
@@ -19,6 +11,15 @@ const GenesysFacilitator = lazyLoad(() => import('./components/experience/Genesy
 const GenesysDesigner = lazyLoad(() => import('./components/experience/GenesysDesigner'));
 const Tenece = lazyLoad(() => import('./components/experience/Tenece'));
 const Portfolio = lazyLoad(() => import('./components/portfolio/Index'));
+const LoveFootball = lazyLoad(() => import('./components/portfolio/love_football/Index'));
+const LoanUp = lazyLoad(() => import('./components/portfolio/loan_up/Index'));
+const Inventopal = lazyLoad(() => import('./components/portfolio/inventopal/Index'));
+const Hexcord = lazyLoad(() => import('./components/portfolio/hexcord/Index'));
+const PizzaJungle = lazyLoad(() => import('./components/portfolio/pizza_jungle/Index'));
+const Deliverie = lazyLoad(() => import('./components/portfolio/deliverie/Index'));
+const Spinero = lazyLoad(() => import('./components/portfolio/spinero/Index'));
+const Sprintrip = lazyLoad(() => import('./components/portfolio/sprintrip/Index'));
+
 
 function App() {
   const [showSplash, shouldShowSplash] = useState(true);
@@ -47,7 +48,7 @@ function App() {
           <Route path="/genesys/facilitator">
             <Header back="/about" />
             <GenesysFacilitator />
-            <Footer />
+            <Footer withBorderTop />
           </Route>
           <Route path="/genesys/designer">
             <Header back="/about" />

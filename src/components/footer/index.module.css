@@ -47,6 +47,14 @@
   display: none;
 }
 
+.with__border__top {
+  position: absolute;
+  left: 50%;
+  bottom: 0%;
+  transform: translate(-50%, -50%);
+  border-top: 1px solid var(--gray-1);
+}
+
 footer:not(.positioned__footer) .socials>a {
   line-height: 12;
 }
@@ -69,5 +77,9 @@ footer:not(.positioned__footer) .socials>a {
   .credits {
     line-height: 3.625rem;
     font-size: 0.875rem;
+  }
+  .with__border__top {
+    position: initial;
+    transform: unset;
   }
 }
