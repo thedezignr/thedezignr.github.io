@@ -1,0 +1,2 @@
+(this["webpackJsonpangels-portfolio"]=this["webpackJsonpangels-portfolio"]||[]).push([[4],{35:function(n,i,a){n.exports={main__container:"Highlight_main__container__2wuvu"}},40:function(n,i,a){"use strict";a.r(i);var e=a(0),t=a(35),s=a.n(t);i.default=function(n){return Object(e.jsxs)("main",{className:s.a.main__container,children:[Object(e.jsx)("h1",{children:"Angel"}),Object(e.jsx)("h3",{children:"I am a UI/UX Designer who is passionate about designing meaningful and impactful products."})]})}}}]);
+//# sourceMappingURL=4.2702057c.chunk.js.map
