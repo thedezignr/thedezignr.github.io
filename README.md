@@ -1,3 +1,7 @@
+### Credits
+* Designed by [me](https://twitter.com/thedezignr_)
+* Built by [@hyper_debugger](https://twitter.com/hyper_debugger)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
