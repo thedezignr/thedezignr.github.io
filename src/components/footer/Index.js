@@ -7,7 +7,7 @@ const Footer = props => {
         `${style.footer} ${props.forHighlight ? style.positioned__footer : ""} ${props.small ? style.small__footer : ""} ${props.withBorderTop ? style.with__border__top : ""}`
       }>
       <div>
-        <p className={style.credits}>Designed by Angel, built by <a href="https://www.hyperdebugger.dev" className="no__background no__border boring__link">hyper_debugger</a></p>
+        <p className={style.credits}>Designed by Angel, built by <a href="https://www.hyperdebugger.dev/?utm_source=thedezignr-site" className="no__background no__border boring__link" target="_blank" rel="noreferrer">hyper_debugger</a></p>
       </div>
       <div className={style.socials}>
         <a href="https://dribbble.com/theDezignr " className="no__background no__border boring__link" target="_blank" rel="noreferrer">
