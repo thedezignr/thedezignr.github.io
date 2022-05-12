@@ -164,8 +164,8 @@ const getActivities = () => (
             direction and helping them gain design knowledge from experts, at no charge.
           </p>
           <p>
-            This has featured design lord like Chris Do, Joe Natoli, Andy Clarke, Maya El Murr, Bojan Novakovich, 
-            Rusmir Arnautovic, Jared Spool.
+            This has featured design lords like Chris Do, Joe Natoli, Andy Clarke, Maya El Murr, Bojan Novakovich, 
+            Rusmir Arnautovic, Jared Spool and others.
           </p>
         </li>
       </ul>
