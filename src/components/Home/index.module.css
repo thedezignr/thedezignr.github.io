@@ -56,7 +56,9 @@ section.main__container>section:last-child>main {
   color: var(--white);
   text-align: center;
   line-height: 2.5;
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-top: 40px;
 }
 

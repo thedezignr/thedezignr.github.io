@@ -10,6 +10,7 @@ const Footer = lazyLoad(() => import('./components/footer/Index'));
 const GenesysFacilitator = lazyLoad(() => import('./components/experience/GenesysFacilitator'));
 const GenesysDesigner = lazyLoad(() => import('./components/experience/GenesysDesigner'));
 const Tenece = lazyLoad(() => import('./components/experience/Tenece'));
+const Bitfinex = lazyLoad(() => import('./components/experience/Bitfinex'));
 const Portfolio = lazyLoad(() => import('./components/portfolio/Index'));
 const LoveFootball = lazyLoad(() => import('./components/portfolio/love_football/Index'));
 const LoanUp = lazyLoad(() => import('./components/portfolio/loan_up/Index'));
@@ -58,6 +59,11 @@ function App() {
           <Route path="/tenece">
             <Header back="/about" />
             <Tenece />
+            <Footer />
+          </Route>
+          <Route path="/bitfinex">
+            <Header back="/about" />
+            <Bitfinex />
             <Footer />
           </Route>
           <Route path="/portfolio">

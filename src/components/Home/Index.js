@@ -7,16 +7,18 @@ const getAbout = () => (
     <h1>About Me</h1>
     <main className="main__body">
       <p>
-        I started out with graphics designing and branding while in college. Over the next 4 years,
-        I spent my time studying and designing.  Upon leaving college, I heard about Product Design as a career path and
+        I started out with graphics designing and branding while in college. Over the next 4 years, 
+        I spent my time studying and designing.  Upon leaving college, I heard about Product Design as a career path and 
         I entered an internship program where I learned and practiced UX/UI Design.
       </p>
       <p>
-        Since I left the internship program, I have worked with 3 companies as UI/UX Designer, worked with several clients and
-        designed products across a variety of industries. I have experience with B2B, B2C and SaaS products.
+        Since I left the internship program, I have worked with  different companies,  as a Product Designer, working on web, 
+        mobile, B2C, B2B, cryptotrading, SaSS and other products.
       </p>
       <p>
-        I am interested in new opportunities to design products that REALLY solve a problem.
+        These days when I am not doing awesome design work, I am mentoring budding designers, speaking in design events, 
+        providing career guidance to people who need it or trying my hands on Python and Data Engineering 
+        (yeah, super unrelated, but super interesting).
       </p>
       <a href="https://bit.ly/angelopokuCV" className={["no__border", "boring__link", style.download_button].join(" ")} target="_blank" rel="noreferrer">View my resume</a>
     </main>
@@ -57,6 +59,16 @@ const getExperience = () => (
     <h1>Experience</h1>
     <hr className={style.header__marker} />
     <main className="main__body table">
+      <div className="table__row">
+        <div className="table__cell">
+          <h3>Bitfinex</h3>
+          <p>Product Designer</p>
+        </div>
+        <div className="table__cell">
+          <p>February 2021 - Present</p>
+        </div>
+      </div>
+      <NavLink to="/bitfinex" className={style.details__link}>Details</NavLink>
       <div className="table__row">
         <div className="table__cell">
           <h3>Genesys Tech Hub</h3>
@@ -127,14 +139,12 @@ const getClients = () => (
     <hr className={style.header__marker} />
     <main className="main__body">
       <ul className={style.two__columns_list}>
-        <li>Spinero</li>
         <li>Effect Studios</li>
         <li>Love Football</li>
         <li>Sprintrip</li>
-        <li>Bikelane</li>
-        <li>Boolean Labs</li>
-        <li>Hexcord</li>
         <li>CopenHagen</li>
+        <li>Norlics</li>
+        <li>Hexcord</li>
         <li>HyperDebugger</li>
         <li>Zoe's Lab</li>
       </ul>
@@ -149,9 +159,14 @@ const getActivities = () => (
     <main className="main__body">
       <ul className={style.default__list}>
         <li>
-          <p>I hosted the first edition of Design Week, an online week-long session that aimed at giving newbie designers
-                direction and helping them gain design knowledge from experts, at no charge.</p>
-          <p>The edition featured Chris Do, Joe Natoli, Andy Clarke, Maya El Murr and Bojan Novakovich</p>
+          <p>
+            So far, 2 editions of Design Week (a yearly event), an online week-long session that aimed at giving newbie designers 
+            direction and helping them gain design knowledge from experts, at no charge.
+          </p>
+          <p>
+            This has featured design lord like Chris Do, Joe Natoli, Andy Clarke, Maya El Murr, Bojan Novakovich, 
+            Rusmir Arnautovic, Jared Spool.
+          </p>
         </li>
       </ul>
     </main>
