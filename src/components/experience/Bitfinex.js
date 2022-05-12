@@ -25,16 +25,16 @@ const Bitfinex = props => {
         </p>
         <ul className={style.default__list}>
           <li>
-            <p>Mobile app</p>
+            <p className={style.list__paragraph}>Mobile app</p>
           </li>
           <li>
-            <p>Web app</p>
+            <p className={style.list__paragraph}>Web app</p>
           </li>
           <li>
-            <p>Design System</p>
+            <p className={style.list__paragraph}>Design System</p>
           </li>
           <li>
-            <p>KYC Admin</p>
+            <p className={style.list__paragraph}>KYC Admin</p>
           </li>
         </ul>
       </main>
